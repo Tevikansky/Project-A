@@ -1,5 +1,5 @@
-# HTML-starter
+# Project A
 
-Стартовый шаблон
+First project
 
 ### Автор: Валерий Богданов
