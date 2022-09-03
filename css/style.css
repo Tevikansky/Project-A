@@ -23,13 +23,13 @@ header{
   background-image: url('../img/header-bg.jfif');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center bottom -40px;
   position: relative;
 }
 .header-image::before{
   content:"";
   position: absolute;
-  background: rgba(41, 45, 51, 0.6);
+  background: rgba(41, 45, 51, 0.75);
   top: 0;
   left: 0;
   width: 100%;
@@ -74,7 +74,7 @@ fill:#292D33; ;
 .header-link{
 text-decoration: none;
 font-size: 16px;
-margin-right: 50px;
+margin-right: 50.5px;
 color: inherit;
 }
 .header-phone{
@@ -82,8 +82,10 @@ color: inherit;
   display: flex;
   align-items:center;
   gap: 10px;
-  margin-right: 50px;
-  
+  margin-right: 51px;
+}
+.phone{
+margin-right: 3px;
 }
 .header-phone-link{
   text-decoration: none;
@@ -107,6 +109,7 @@ color: inherit;
 }
 .header-button{
   height: 100%;
+  padding: 25px 33px 25px 49px;
 }
 .seporator{
   background: #5C8EE6;
@@ -115,15 +118,19 @@ height: 2px;
 }
 .header-content{
   padding-top: 150px;
+  padding-left: 9px;
   z-index: 1;
   color: #fff;
 }
 .header-title{
   font-family: 'Bebas Neue Book';
   max-width: 1080px;
+  font-weight: 400;
   font-size: 80px;
   line-height: 120%;
-  margin: 30px 0;
+  margin: 21px 0 40px 0;
+  letter-spacing: 0.7px;
+  word-spacing: -0.8px;
 }
 .header-text{
   max-width: 720px;
@@ -134,15 +141,19 @@ margin-bottom: 50px;
 }
 .header-feauters{
   display: flex;
-  min-height: 168px;
+  min-height: 161px;
   padding: 0;
-  margin-top: 100px;
+  margin-top: 101px;
   list-style: none;
   position: relative;
   color: #fff;
+  margin-left: 9px;
+}
+.logo-svg{
+  margin-top: -5px;
 }
 .header-feauters-item{
-  padding: 30px 50px;
+  padding: 38px 60px 12px 48px;
   border: 1px solid rgba(235, 235, 240, 0.2);
 }
 .header-feauters-item:not(:last-child){
@@ -152,6 +163,7 @@ margin-bottom: 50px;
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
+  margin-top: 20px;
 }
 .section{
   margin-bottom: 150px;
