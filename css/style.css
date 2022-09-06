@@ -23,7 +23,7 @@ header{
   background-image: url('../img/header-bg.jfif');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center bottom -40px;
+  background-position: center bottom -47px;
   position: relative;
 }
 .header-image::before{
@@ -150,11 +150,19 @@ margin-bottom: 50px;
   margin-left: 9px;
 }
 .logo-svg{
-  margin-top: -5px;
+  margin-top: 4px;
 }
 .header-feauters-item{
-  padding: 38px 60px 12px 48px;
+  padding: 29px 60px 12px 48px;
   border: 1px solid rgba(235, 235, 240, 0.2);
+  min-width: 288px;
+  min-height: 168px;
+}
+.fourth{
+  padding-top: 3px;
+}
+.fifth{
+  padding-top: 4px;
 }
 .header-feauters-item:not(:last-child){
   border-right: none;
@@ -165,6 +173,9 @@ margin-bottom: 50px;
   line-height: 160%;
   margin-top: 20px;
 }
+.second{
+  margin-left: 9px;
+}
 .section{
   margin-bottom: 150px;
   margin-top: 150px;
@@ -174,6 +185,8 @@ margin-bottom: 50px;
   font-size: 60px;
 line-height: 120%;
 color: #292D33;
+margin-top: 24px;
+
 }
 .steps{
   display: flex;
@@ -191,6 +204,7 @@ color: #292D33;
   color: #5C8EE6;
   display: flex;
   align-items: center;
+  margin-top: 2px;
   
 }
 .steps-num::after{
@@ -201,18 +215,22 @@ color: #292D33;
   margin-left: 30px;
 }
 .steps-title{
-margin-top: 30px;
-margin-bottom: 10px;
+  font-weight: 400;
+  margin-top: 34px;
+  margin-bottom: 10px;
   font-size: 28px;
-line-height: 160%;
-color: #292D33;
+  line-height: 160%;
+  color: #292D33;
 }
 .steps-text{
   font-size: 16px;
 line-height: 160%;
 color: #828A99;
-margin-top: 10px;
+margin-top: 12px;
 margin-bottom: 20px;
+}
+.note{
+  margin-right: 50px;
 }
 .steps-link{
 display: flex;
