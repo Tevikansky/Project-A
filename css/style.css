@@ -266,9 +266,6 @@ margin-top: 1.5rem;
   padding: 0;
   gap: 1.875rem;
 }
-.steps-item{
-  min-width: 20.625rem;
-}
 .steps-num{
   font-family: 'Bebas Neue Book';
   font-size: 3rem;

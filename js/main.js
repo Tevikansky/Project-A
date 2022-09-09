@@ -88,7 +88,7 @@ const swiperWork = new Swiper('.swiper-work', {
     },
     // when window width is >= 640px
     1200: {
-      slidesPerView: 5,
+      slidesPerView: 4,
     }
   },
 
