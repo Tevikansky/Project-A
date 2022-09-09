@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Aliance Production</title>
@@ -141,38 +142,54 @@
         </p>
         <button class="button"> Подробнее о компании</button>
       </div>
-      <ul class="header-feauters">
-        <li class="header-feauters-item">
-          <svg class="logo-svg1">
-            <use href="img/sprite.svg#Vector"></use>
-          </svg>
-          <p class="header-feauters-text">Непрерывная работа c&nbsp;2017 года</p>
-        </li>
-        <li class="header-feauters-item">
-          <svg class="logo-svg2">
-            <use href="img/sprite.svg#Vector-1"></use>
-          </svg>
-          <p class="header-feauters-text">Вся продукция сертифицирована</p>
-        </li>
-        <li class="header-feauters-item">
-          <svg class="logo-svg3">
-            <use href="img/sprite.svg#Vector-2"></use>
-          </svg>
-          <p class="header-feauters-text">Контроль качества на всех этапах</p>
-        </li>
-        <li class="header-feauters-item">
-          <svg class="logo-svg4">
-            <use href="img/sprite.svg#Vector-3"></use>
-          </svg>
-          <p class="header-feauters-text fourth">Возможны поставки по всей России</p>
-        </li>
-        <li class="header-feauters-item">
-          <svg class="logo-svg5">
-            <use href="img/sprite.svg#Vector-4"></use>
-          </svg>
-          <p class="header-feauters-text fifth">Оперативное производство</p>
-        </li>
-      </ul>
+
+
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <ul class="swiper-wrapper header-feauters">
+          <!-- Slides -->
+          <li class="swiper-slide header-feauters-item"> <svg class="logo-svg1">
+              <use href="img/sprite.svg#Vector"></use>
+            </svg>
+            <p class="header-feauters-text">Непрерывная работа c&nbsp;2017 года</p>
+          </li>
+          <li class="swiper-slide header-feauters-item"><svg class="logo-svg2">
+              <use href="img/sprite.svg#Vector-1"></use>
+            </svg>
+            <p class="header-feauters-text">Вся продукция сертифицирована</p>
+          </li>
+          <li class="swiper-slide header-feauters-item"><svg class="logo-svg3">
+              <use href="img/sprite.svg#Vector-2"></use>
+            </svg>
+            <p class="header-feauters-text">Контроль качества на всех этапах</p>
+          </li>
+          <li class="swiper-slide header-feauters-item"><svg class="logo-svg4">
+              <use href="img/sprite.svg#Vector-3"></use>
+            </svg>
+            <p class="header-feauters-text fourth">Возможны поставки по всей России</p>
+          </li>
+          <li class="swiper-slide header-feauters-item"><svg class="logo-svg5">
+              <use href="img/sprite.svg#Vector-4"></use>
+            </svg>
+            <p class="header-feauters-text fifth">Оперативное производство</p>
+          </li>
+        </ul>
+
+        <!-- If we need navigation buttons -->
+        <div class="slider-buttons">
+          <div class="slider-button-prev">
+            <svg width="36" height="24">
+              <use href="img/sprite.svg#prefbt"></use>
+            </svg>
+          </div>
+          <div class="slider-button-next">
+            <svg width="36" height="24">
+              <use href="img/sprite.svg#nextbt"></use>
+            </svg>
+          </div>
+        </div>
+
+      </div>
     </div>
   </header>
   <section class="section section-light">
@@ -210,7 +227,7 @@
   </section>
 
 
-
+  <script src="js/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
