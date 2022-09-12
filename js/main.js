@@ -1,15 +1,19 @@
 const navbar = document.querySelector(".navbar");
-const logo = document.querySelector(".logo-svg use");
+const logoLight = document.querySelector(".logo-light");
+const logo = document.querySelector(".logo-dark");
 const mMenuToggle = document.querySelector(".mobile-menu");
 const menu = document.querySelector(".mobile-menu-main");
 
 const lightModeOn = (event) => {
   navbar.classList.add("navbar-light");
-  logo.href.baseVal = "img/sprite.svg#logo-dark";
+  logo.style.display = "block";
+  logoLight.style.display = "none";
+
 };
 const lightModeOff = (event) => {
   navbar.classList.remove("navbar-light");
-  logo.href.baseVal = "img/sprite.svg#logo";
+  logo.style.display = "none";
+  logoLight.style.display = "block";
 };
 
 const openMenu = (event) => {
@@ -39,7 +43,6 @@ mMenuToggle.addEventListener("click", (event) => {
 
 const swiper = new Swiper('.swiper-features', {
   speed: 400,
-  autoHeight: true,
   slidesPerView: 1,
   navigation: {
     nextEl: '.slider-button-next',

@@ -25,6 +25,9 @@ header{
 .header-button .button-phone{
   display: none;
 }
+.logo-dark{
+  display: none;
+}
 .logo-svg{
   width: 9rem;
   height: 2.75rem;
@@ -184,8 +187,7 @@ margin-bottom: 3.125rem;
   list-style: none;
   position: relative;
   color: #fff;
-  /* margin-left: .5625rem; */
-  width: 100%;
+
 }
 .slider-buttons.sec{
   display: none;
@@ -224,8 +226,8 @@ margin-bottom: 3.125rem;
 .header-feauters-item{
   padding: 2.0625rem 3.75rem .75rem 3rem;
   border: .0625rem solid rgba(235, 235, 240, 0.2);
-  min-width: 18rem;
-  min-height: 100%;
+  width: 18rem;
+  height: auto;
 }
 .fourth{
   padding-top: .1875rem;
