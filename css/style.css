@@ -53,12 +53,12 @@ header{
   height: 1.5625rem;
 }
 .container{
-  max-width: 90rem;
+  max-width: 91rem;
   margin: auto;
   position: relative;
 }
 .header-image{
-  background-image: url('../img/header-bg.jfif');
+  background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom -2.9375rem;
@@ -108,6 +108,13 @@ fill:#292D33; ;
   list-style: none;
   padding: 0 3.11rem;
   margin: 0;
+  align-items: center;
+  height: 100%;
+}
+.header-nav-item{
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 .header-nav-item:not(last-child){
   margin-right: 4.77%;
@@ -116,6 +123,23 @@ fill:#292D33; ;
 text-decoration: none;
 font-size: 1rem;
 color: inherit;
+display: flex;
+align-items: center;
+height: 100%;
+position: relative;
+}
+.header-link::after{
+  content:"";
+  width: 100%;
+  position: absolute;
+  bottom: -1px;
+  background-color: #5C8EE6;
+  height: 2px;
+  transform:scaleX(0);
+  transition: transform 0.2s;
+}
+.header-link:hover::after{
+  transform:scaleX(1)
 }
 .header-phone{
   flex-shrink: 0;
@@ -158,7 +182,7 @@ height: .125rem;
 }
 .header-content{
   padding-top: 9.375rem;
-  padding-left: .5625rem;
+  padding-left: 1rem;
   z-index: 1;
   color: #fff;
 }
@@ -235,9 +259,17 @@ margin-bottom: 3.125rem;
 .fifth{
   padding-top: .25rem;
 }
+.swiper{
+  margin-left: 1.125rem;
+}
+.swiper.swiper-work{
+  margin-left: 0;
+  margin-top: 2.125rem;
+}
 .swiper-wrapper.steps.second{
   margin-bottom: 20px;
 }
+
 .swiper-wrapper{
 margin-bottom: 0;
 }
@@ -249,17 +281,19 @@ margin-bottom: 0;
 }
 .second{
   margin-left: .5625rem;
+  margin-bottom: 1.875rem;
 }
 .section{
-  margin-bottom: 9.375rem;
+  margin-bottom: -2.9rem;
   margin-top: 9.375rem;
+  margin-left: 1rem;
 }
 .section-title{
   font-family: 'Bebas Neue Book';
   font-size: 3.75rem;
 line-height: 120%;
 color: #292D33;
-margin-top: 1.5rem;
+margin-top: -0.3rem;
 
 }
 .steps{
@@ -314,11 +348,109 @@ color: #5C8EE6;
 }
 .steps-link::before{
 content: "";
-height: .0625rem;
+height: 1px;
 background: #5C8EE6;
-width: 2.5rem;
+width: 40px;
 margin-right: 1.25rem;
+transition: width 0.2s;
 }
+.steps-link:hover::before{
+width: 60px;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3.625rem;
+  margin-left: .5rem;
+}
+.card{
+  flex-basis: 33%;
+  border:1px solid #EBEBF0;
+  position: relative;
+  text-decoration: none;
+  transition: border 0.2s;
+}
+.card:hover .card-title{
+  color: #5C8EE6;
+
+}
+.card:hover{
+  border-color: #5C8EE6;;
+}
+.card-content{
+  padding: 2.5rem 1.125rem 0rem 3.125rem;
+}
+.card-title{
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 140%;
+  color: #292D33;
+  margin-top: 0;
+  margin-bottom: .625rem;
+  transition: color 0.2s;
+}
+.card-text{
+  font-weight: 400;
+font-size: 1rem;
+line-height: 160%;
+color: #828A99;
+margin-bottom: 24.625rem;
+}
+.card-img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 90%;
+  z-index: 0;
+}
+.section.mark{
+  margin-top: 12.0625rem;
+}
+.card-mark{
+  flex-basis: 50%;
+  border:1px solid #EBEBF0;
+  position: relative;
+  text-decoration: none;
+  transition: border 0.2s;
+}
+.card-mark:hover .card-title{
+  color: #5C8EE6;
+}
+.card-mark:hover{
+  border-color: #5C8EE6;;
+}
+.card-mark-content{
+  padding: 3.1875rem 0 0 0.6rem;
+}
+.card-mark-text{
+  font-weight: 400;
+font-size: 1rem;
+line-height: 160%;
+color: #828A99;
+margin-bottom: 4.4375rem;
+}
+.card-marks-img{
+  padding: 4.375rem;
+}
+.card-marks-img.ap{
+  padding: 2.75rem 1.5625rem 2.625rem 5.375rem;
+}
+.card-mark-content.ap{
+padding-left: 4.125rem;
+}
+.card-marks{
+  display: flex;
+  max-height: 17.5rem;
+  max-width: 41.25rem;
+}
+.cards-mark{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 9px;
+  margin-top: 56px;
+}
+
+
 @media(max-width:1700px){
   html{
     font-size: 15px;
@@ -326,6 +458,7 @@ margin-right: 1.25rem;
   .header-image{
     background-position:center;
   }
+
   }
   @media(max-width:1460px){
     html{
@@ -350,6 +483,7 @@ margin-right: 1.25rem;
 .header-phone{
   margin-right: 2rem;
 }
+
     }
     @media(max-width:1200px){
       .slider-buttons{
@@ -372,6 +506,12 @@ margin-right: 1.25rem;
       .header-button{
         padding-left: 2rem;
         padding-right: 2rem;
+      }
+      .card{
+        flex-basis: 50%;
+      }
+      .card-mark{
+        flex-basis: 100%;
       }
     }
     @media(max-width:992px){
@@ -497,6 +637,10 @@ margin-right: 1.25rem;
       display: inline-flex;
       padding-right: 15px;
       }
+      .card-mark{
+        flex-basis: 100%;
+      }
+      
     }
 .close-menu .mobile-menu-line:nth-child(2){
 display: none;
@@ -518,6 +662,9 @@ display: none;
 .header-content{
   padding-top: 3rem;
 }
+.card{
+  flex-basis: 100%;
+}
  }
  @media (max-width:576px){
   .container {
@@ -529,4 +676,5 @@ display: none;
   .header-content{
     padding-top: 3rem;
   }
+ 
    }

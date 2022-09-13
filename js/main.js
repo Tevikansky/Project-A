@@ -71,6 +71,7 @@ const swiper = new Swiper('.swiper-features', {
 const swiperWork = new Swiper('.swiper-work', {
   speed: 500,
   autoHeight: true,
+  width: 1320,
   slidesPerView: 1,
   navigation: {
     nextEl: '.slider-button-next',
