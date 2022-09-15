@@ -51,7 +51,7 @@ const swiper = new Swiper('.swiper-features', {
   breakpoints: {
     // when window width is >= 320px
     300: {
-      slidesOffsetAfter: 200,
+      slidesOffsetAfter: 10,
       slidesPerView: 2,
     },
     576: {
@@ -70,7 +70,7 @@ const swiper = new Swiper('.swiper-features', {
 });
 const swiperWork = new Swiper('.swiper-work', {
   speed: 500,
-  autoHeight: true,
+  autoHeight: false,
   width: 1320,
   slidesPerView: 1,
   navigation: {
@@ -78,10 +78,11 @@ const swiperWork = new Swiper('.swiper-work', {
     prevEl: '.slider-button-prev',
   },
   breakpoints: {
-    // when window width is >= 320px
+    // when window width is >= 300px
     300: {
-      slidesOffsetAfter: 400,
       slidesPerView: 2,
+      slidesOffsetAfter: 300,
+      width: 500
     },
     576: {
       slidesPerView: 2,
