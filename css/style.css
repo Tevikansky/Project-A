@@ -29,8 +29,8 @@ header{
   display: none;
 }
 .logo-svg{
-  width: 10rem;
-  height: 4rem;
+  width: 9rem;
+  height: 9em;
 }
 .logo-svg1{
   width: 1.3125rem;
@@ -98,7 +98,7 @@ fill:#292D33; ;
 .logo{
   display: flex;
   align-items:center;
-  padding: 0 2.5rem;
+  padding: 0 3rem;
   border-right: .0625rem solid rgba(235, 235, 240, 0.2);
   height: 100%;
 }
@@ -244,10 +244,6 @@ margin-bottom: 3.125rem;
   cursor: pointer;
 }
 
-
-.logo-svg{
-  margin-top: .25rem;
-}
 .header-feauters-item{
   padding: 2.0625rem 3.75rem .75rem 3rem;
   border: .0625rem solid rgba(235, 235, 240, 0.2);
@@ -339,7 +335,7 @@ margin-bottom: 1.25rem;
 .note{
   margin-right: 3.125rem;
 }
-.steps-link{
+.button-link{
 display: flex;
 align-items: center;
 text-decoration: none;
@@ -348,7 +344,7 @@ font-size: 1rem;
 line-height: 160%;
 color: #5C8EE6;
 }
-.steps-link::before{
+.button-link::before{
 content: "";
 height: 1px;
 background: #5C8EE6;
@@ -356,7 +352,7 @@ width: 40px;
 margin-right: 1.25rem;
 transition: width 0.2s;
 }
-.steps-link:hover::before{
+.button-link:hover::before{
 width: 60px;
 }
 .production-wrapper {
@@ -424,7 +420,7 @@ margin-bottom: 24.625rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto 2fr;
-  grid-column-gap: 3.15rem;
+  grid-column-gap: 4.4rem;
   grid-template-areas: 
   "logo title title"
   "logo text text";
@@ -444,7 +440,8 @@ grid-area: text;
 }
 .card-marks-img{
   grid-area: logo;
-  width: 100%;
+  width: 117%;
+  height: 103%;
   fill: #828A99;
 }
 .mark-card:hover .card-marks-img{
@@ -463,8 +460,112 @@ grid-area: text;
 .mark-container {
   padding-left: .625rem;
 }
+.founder {
+  position: relative;
+  margin-top: 12.5625rem;
+}
+.founder-photo {
+  position: absolute;
+  left: 0;
+  width: 44%;
+  top: 0;
+  min-height: 41.25rem;
+  object-fit: cover;
+}
+.founder-content {
+  min-width: 45rem;
+  flex-basis: 50%;
+  padding-left: .5625rem;
+}
+.founder-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 3.125rem;
+}
+.section-founder {
+  padding-right: 3.75rem;
+  margin-bottom: 1.5rem;
+}
+.founder-text {
+  font-weight: 400;
+font-size: 1rem;
+line-height: 160%;
+color: #828A99;
+margin-bottom: 1.875rem;
+}
+.clients {
+  margin-top: 15.4375rem;
+  margin-left: 1.0625rem;
+}
+.section-clients {
+  margin-bottom: 2.8125rem;
+}
+.clients-wrapper {
+  display: flex;
+}
+.clients-content{
+  flex-basis: 50%;
+}
+.clients-list {
+  list-style: none;
+  padding: 0;
+  columns: 2 auto;
+}
+.clients-list-item{
+  display: flex;
+  align-items:center;
+  gap: 1.25rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292D33;
+  margin-bottom: 1.25rem;
+}
+.clients-list-item:nth-child(6){
+  margin-left: -0.5rem;
+}
+.clients-list-item:nth-child(7){
+  margin-left: -0.5rem;
+}
+.clients-list-item:nth-child(8){
+  margin-left: -0.5rem;
+}
+.clients-list-item:nth-child(9){
+  margin-left: -0.5rem;
+}
+.clients-list-item:nth-child(10){
+  margin-left: -0.5rem;
+}
+.clients-logo-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.clients-logo-item{
+flex-basis: 33%;
+border: 1px solid #EBEBF0;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 2.75rem .25rem;
+cursor: pointer;
+transition: border 0.2s;
 
-
+}
+.clients-logo-light{
+  display: none;
+}
+.clients-logo {
+  max-width: 100%;
+}
+.clients-logo-item:hover{
+  border-color: #5C8EE6;
+}
+.clients-logo-item:hover .clients-logo{
+  display: none;
+}
+.clients-logo-item:hover .clients-logo-light{
+  display: block;
+}
 @media(max-width:1700px){
   html{
     font-size: 15px;
@@ -530,6 +631,20 @@ grid-area: text;
       }
       .mark-card{
         grid-template-columns: auto auto;
+      }
+      .founder-wrapper {
+        justify-content: center;
+        width: 100%;
+      }
+      .founder-photo {
+        position: relative;
+        width: 100%;
+      }
+      .clients-content {
+        flex-basis: 60%;
+      }
+      .clients-wrapper{
+        display: block;
       }
     }
     @media(max-width:992px){
@@ -673,6 +788,9 @@ display: none;
   flex-direction: column;
   margin-top: 2.9rem;
 }
+.clients-list {
+  columns: 1 auto;
+}
     }
  @media (max-width:768px){
 .container {
@@ -782,12 +900,13 @@ display: none;
   color: #828A99;
   margin-top: 0rem;
   margin-bottom: 2.2rem;
+  padding-right: 29px;
 }
-.steps-link {
+.button-link {
   font-weight: 600;
   font-size: 1.2rem;
   line-height: 105%;}
-.steps-link::before {
+.button-link::before {
   margin-right: 1.6rem;
 }
 .cards {
