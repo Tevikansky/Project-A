@@ -51,7 +51,7 @@ const swiper = new Swiper('.swiper-features', {
   breakpoints: {
     // when window width is >= 320px
     300: {
-      slidesOffsetAfter: 10,
+      slidesOffsetAfter: 362,
       slidesPerView: 2,
     },
     576: {
@@ -81,7 +81,7 @@ const swiperWork = new Swiper('.swiper-work', {
     // when window width is >= 300px
     300: {
       slidesPerView: 2,
-      slidesOffsetAfter: 300,
+      slidesOffsetAfter: 400,
       width: 500
     },
     576: {

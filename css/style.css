@@ -29,8 +29,8 @@ header{
   display: none;
 }
 .logo-svg{
-  width: 9rem;
-  height: 2.75rem;
+  width: 10rem;
+  height: 4rem;
 }
 .logo-svg1{
   width: 1.3125rem;
@@ -98,7 +98,7 @@ fill:#292D33; ;
 .logo{
   display: flex;
   align-items:center;
-  padding: 0 3rem;
+  padding: 0 2.5rem;
   border-right: .0625rem solid rgba(235, 235, 240, 0.2);
   height: 100%;
 }
@@ -326,6 +326,7 @@ margin-top: -0.3rem;
   font-size: 1.75rem;
   line-height: 160%;
   color: #292D33;
+  padding-right: 24px;
 }
 .steps-text{
   font-size: 1rem;
@@ -507,11 +508,11 @@ margin-bottom: 4.4375rem;
         display: none;
       }
       .navbar{
-        height: 5rem;
+        height: 5.7rem;
       }
       .header-button{
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 2.4rem;
+        padding-right: 2.7rem;
       }
       .card{
         flex-basis: 50%;
@@ -520,6 +521,9 @@ margin-bottom: 4.4375rem;
         flex-basis: 100%;
         max-width: 100%;
         max-height: none;
+      }
+      .slider-buttons.sec {
+        margin-left: 226px;
       }
     }
     @media(max-width:992px){
@@ -535,6 +539,10 @@ margin-bottom: 4.4375rem;
       .logo{
         flex-grow: 1;
         justify-content: center;
+        padding: 0;
+      }
+      .logo-svg {
+        max-width: 10rem;
       }
       .mobile-menu{
         width: 80px;
@@ -542,7 +550,7 @@ margin-bottom: 4.4375rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 1.8rem;
+        padding: 27px 21px 26px 31px;
         border-right: 1px solid  rgba(235, 235, 240, 0.2);
       }
       .navbar-light .mobile-menu-line{
@@ -673,14 +681,136 @@ display: none;
  }
  @media (max-width:576px){
   .container {
-    max-width: 90%;
+    max-width: 96%;
+  }
+  .but{
+    max-width: 100%;
+    margin-top: -10px;
   }
   .header-title{
-    font-size: 2rem;
+    font-size: 4rem;
+    margin: 1.3125rem 0 1.5rem 0;
+  }
+  .header-text {
+    font-size: 1.2rem;
+    line-height: 150%;
+    margin-bottom: 2.7rem;
+  }
+  .more{
+    font-size: 1.2rem;
+    padding: 18px 11px 21px 10px;
+    width: 98%;
   }
   .header-content{
-    padding-top: 3rem;
+    padding-top: 4rem;
   }
+  .seporator{
+    width: 8rem;
+  }
+  .header-feauters-item:first-child{
+    padding: 5px 70px 5px 36px;
+    
+  }
+  .header-feauters-item{
+    padding: 5px 70px 5px 28px;
+    border: 1px solid rgba(235, 235, 240, 0.2);
+    width: 290px;
+    height: auto;
+    min-width: 258px;
+  }
+  .header-feauters-text {
+    font-weight: 400;
+    font-size: 1.15rem;
+    line-height: 160%;
+    margin-top: 1.7rem;
+  }
+  .logo-svg1 {
+    width: 21px;
+    height: 28px;
+}
+.logo-svg2 {
+  width: 28px;
+  height: 28px;
+}
+.logo-svg3 {
+  width: 28px;
+  height: 28px;
+}
+.logo-svg4 {
+  width: 28px;
+  height: 28px;
+}
+.logo-svg5 {
+  width: 28px;
+  height: 28px;
+}
+.section {
+  margin-bottom: 0rem;
+  margin-top: 8.3rem;
+}
+.steps {
+  gap: 6.6rem;
+}
+.steps-num {
+  font-size: 4.3rem;
+  line-height: 120%;
+  margin-top: -0.7rem;
+}
+.section-title {
+  font-size: 2.75rem;
+  letter-spacing: 1.4px;
+}
+.steps-title {
+  font-weight: 400;
+  margin-top: 0.7rem;
+  margin-bottom: 0.625rem;
+  font-size: 1.75rem;
+  letter-spacing: -0.7px;
+}
+.steps-text {
+  font-size: 1.15rem;
+  line-height: 160%;
+  color: #828A99;
+  margin-top: 0rem;
+  margin-bottom: 2.2rem;
+}
+.steps-link {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 105%;}
+.steps-link::before {
+  margin-right: 1.6rem;
+}
+.cards {
+  margin-top: 2.7rem;
+}
+.card-content {
+  padding: 1.5rem 3.125rem 0rem 2.4rem;
+}
+.card-text{
+  font-size: 1.2rem;
+  letter-spacing: -0.2px;
+  margin-bottom: 23.625rem;
+}
+.card:first-child .card-text{
+  margin-bottom: 25.625rem;
+}
+.card:nth-child(3) .card-text{
+  margin-bottom: 25rem;
+}
+.card:nth-child(4) .card-text{
+margin-bottom: 25.4rem;
+}
+.card:nth-child(5) .card-text{
+  margin-bottom: 27.3rem;
+  }
+.card-title {
+  margin-bottom: -0.6rem;
+  letter-spacing: -0.5px;
+}
+.swiper-wrapper.steps.second {
+  margin-bottom: -5px;
+}
   .card-marks-img{
     width: 5.25rem;
     height: 5.25rem;
