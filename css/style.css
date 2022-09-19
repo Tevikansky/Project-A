@@ -566,6 +566,9 @@ transition: border 0.2s;
 .clients-logo-item:hover .clients-logo-light{
   display: block;
 }
+.button-link.mission-on {
+  display: none;
+}
 @media(max-width:1700px){
   html{
     font-size: 15px;
@@ -962,6 +965,55 @@ padding: 1.875rem 2rem 0.9rem 2rem;
   font-size: 1.17rem;
     margin-left: .375rem;
     margin-top: -0.3125rem;
+}
+.founder-photo {
+  min-height: 24.25rem;
+}
+.founder-content{
+  min-width: 30rem;
+  flex-basis: 100%;
+  padding: 0;
+}
+.founder-wrapper{
+padding-top: 4.1rem;
+padding-left: 1rem;
+}
+.founder-text {
+  padding-right: 1.6875rem;
+  letter-spacing: .0187rem;
+  font-size: 1.1rem;
+}
+.button-link.mission-off{
+  display: none;
+}
+.button-link.mission-on{
+  display: flex;
+}
+.clients{
+  margin-left: .375rem;
+  margin-top: 8.6rem;
+}
+.section-title.section-clients{
+  line-height: 128%;
+}
+.clients-list-item {
+  letter-spacing: -0.0313rem;
+  gap: 1.5rem;
+  font-size: 1.25rem;
+}
+.clients-list-item:nth-child(6),
+.clients-list-item:nth-child(7),
+.clients-list-item:nth-child(8),
+.clients-list-item:nth-child(9),
+.clients-list-item:nth-child(10){
+  margin-left: 0;
+}
+.clients-logo-item{
+  flex-basis: 50%;
+}
+.clients-logo,
+.clients-logo-light{
+  height: 49.83px;
 }
  }
 @media (max-width:320px){
