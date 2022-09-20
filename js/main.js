@@ -112,5 +112,8 @@ const swiperBlog = new Swiper('.swiper-blog', {
     300: {
       slidesPerView: 1,
     },
+    1200: {
+      slidesPerView: 2,
+    }
   }
 });

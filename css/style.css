@@ -570,7 +570,7 @@ transition: filter 0.5s;
 .blog-card{
   display: flex;
   position: relative;
-  min-height: 40rem;
+  min-height: 25rem;
   flex-direction: column;
   text-decoration: none;
   color: #fff;
@@ -616,7 +616,128 @@ align-items:center;
 margin-top: 1.875rem;
 justify-content: space-between;
 }
+.but{
+  margin-top: 1.5625rem;
+}
+.section-title.section-blog{
+  margin-bottom: 3.4375rem;
+}
+.section.blog{
+margin-left: 1.125rem;
+margin-top: 12.3125rem;
+}
+.bg-grey {
+  background: #F0F2F5;
+}
+.section-cta {
+  position: relative;
+  padding-top: 6rem;
+  margin-top: 17rem;
+  min-height: 34.375rem;
+  padding-bottom: 5.25rem;
+}
+.cta-form-wrapper  {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 4.5rem;
+}
+.cta-form {
+  max-width: 52.5rem;
+}
+.cta-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 45rem;
+  width: 50%;
+}
+.cta-form-text{
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 160%;
+color: #828A99;
+margin-top: -1.375rem;
+max-width: 40rem;
+margin-bottom: 3.125rem;
+}
+.notify-text {
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 160%;
+color: #828A99;
+margin: 0;
+max-width: 25.75rem;
+}
+.input-group-wrapper {
+  display: flex;
+  gap: 1.875rem;
+  width: 119.5%;
+}
+.input-group {
+position: relative;
+height: 4.125rem;
+flex-grow: 1;
+background-color: #F0F2F5;
 
+}
+.input {
+  
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 1.25rem 1.875rem;
+  border: 1px solid #E4E4EB;
+  background-color:transparent;
+}
+.input-group-label {
+  position: absolute;
+  cursor: text;
+  top: 1.5rem;
+  left: 1.9rem;
+  font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+color: #828A99;
+transition: top 0.2s, left 0.2s, font-size 0.2s;
+padding: 0 10px;
+}
+.input:focus ~ .input-group-label, 
+.input:not(:placeholder-shown) .input:not(:focus) ~ .input-group-label {
+top: -0.3rem;
+left: 1.25rem;
+font-size: .625rem;
+background-color: inherit;
+}
+.input:focus {
+  border: 1px solid #5C8EE6;
+  outline: none;
+}
+.cta-form-footer {
+  gap: 1.875rem;
+display: flex;
+margin-top: 1.875rem;
+align-items:center;
+}
+.cta-form-button{
+flex-shrink: 0;
+flex-shrink: 0;
+width: 35%;
+height: 3.875rem;
+font-size: 13.8px;
+padding: 1.4375rem 2.4375rem;
+}
+.notify {
+  display: flex;
+  align-items:flex-start;
+  gap: .625rem;
+}
+.notify-svg {
+  flex-shrink: 0;
+}
 @media(max-width:1700px){
   html{
     font-size: 15px;
