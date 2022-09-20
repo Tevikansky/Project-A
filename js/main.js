@@ -74,8 +74,8 @@ const swiperWork = new Swiper('.swiper-work', {
   width: 1320,
   slidesPerView: 1,
   navigation: {
-    nextEl: '.slider-button-next',
-    prevEl: '.slider-button-prev',
+    nextEl: '.steps-button-next',
+    prevEl: '.steps-button-prev',
   },
   breakpoints: {
     // when window width is >= 300px
@@ -97,4 +97,20 @@ const swiperWork = new Swiper('.swiper-work', {
     }
   },
 
+});
+
+const swiperBlog = new Swiper('.swiper-blog', {
+  speed: 500,
+  spaceBetween: 30,
+  slidesPerView: 2,
+  navigation: {
+    nextEl: '.blog-button-next',
+    prevEl: '.blog-button-prev',
+  },
+  breakpoints: {
+    // when window width is >= 300px
+    300: {
+      slidesPerView: 1,
+    },
+  }
 });
