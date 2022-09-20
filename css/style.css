@@ -548,23 +548,15 @@ align-items: center;
 justify-content: center;
 padding: 2.75rem .25rem;
 cursor: pointer;
-transition: border 0.2s;
+filter: grayscale(100%);
+transition: filter 0.5s;
 
-}
-.clients-logo-light{
-  display: none;
 }
 .clients-logo {
   max-width: 100%;
 }
 .clients-logo-item:hover{
-  border-color: #5C8EE6;
-}
-.clients-logo-item:hover .clients-logo{
-  display: none;
-}
-.clients-logo-item:hover .clients-logo-light{
-  display: block;
+  filter: grayscale(0%);
 }
 .button-link.mission-on {
   display: none;
