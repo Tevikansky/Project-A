@@ -771,7 +771,7 @@ padding: 1.4375rem 2.4375rem;
   margin-right: 2rem;
 }
 }
-@media(max-width:1340px){ 
+@media(max-width:1550px){ 
   .input-group-wrapper {
     display: block;
   }
