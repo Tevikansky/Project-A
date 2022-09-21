@@ -770,9 +770,23 @@ padding: 1.4375rem 2.4375rem;
 .header-phone{
   margin-right: 2rem;
 }
+}
+@media(max-width:1340px){ 
+  .input-group-wrapper {
+    display: block;
+  }
+  .input-group {
+    margin-bottom: 1.25rem;
+    max-width: 31.25rem;
+  }
+  .section-cta {
+    padding-bottom: 0.7rem;
+  }
+  .input-group-wrapper {
+    width: 100%;
+  }
 
 }
-     
 @media(max-width:1200px){
       .slider-buttons{
         display: flex;
@@ -823,6 +837,13 @@ padding: 1.4375rem 2.4375rem;
       }
       .clients-wrapper{
         display: block;
+      }
+      .cta-img {
+         display: none;
+      }
+      .cta-form-wrapper {
+         display: block;
+         margin: auto;
       }
     }
     @media(max-width:992px){
@@ -1209,6 +1230,48 @@ padding-left: 1rem;
 .clients-logo-light{
   height: 49.83px;
 }
+.section-cta {
+    margin-top: 8rem;
+    margin-left: 1.0625rem;
+    padding-top: 4.5rem;
  }
+ .cta-form-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.17rem;
+  line-height: 153%;
+  color: #828A99;
+  margin-top: -0.9rem;
+  margin-bottom: 2.6rem;
+ }
+ .input-group-label {
+  font-size: 1.2rem;
+  padding: 4px 8px;
+ }
+ .input-group {
+  margin-bottom: 2.5rem;
+ }
+ .input {
+  padding: 2.5rem 1.875rem;
+ }
+ .input:focus ~ .input-group-label, 
+.input:not(:placeholder-shown) .input:not(:focus) ~ .input-group-label {
+top: -0.8rem;
+left: 1.25rem;
+font-size: .825rem;
+}
+.cta-form-footer {
+  display: block;
+  margin-top: -0.5rem;
+}
+.cta-form-button {
+  width: 100%;
+  height: 5.1rem;
+  margin-bottom: 2.5rem;
+}
+.notify {
+  margin-left: .1875rem;
+}
+}
 @media (max-width:320px){
 }
