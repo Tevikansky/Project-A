@@ -675,6 +675,11 @@ max-width: 25.75rem;
   gap: 1.875rem;
   width: 119.5%;
 }
+.input-group-vertical {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 .input-group {
 position: relative;
 height: 4.125rem;
@@ -691,7 +696,10 @@ background-color: #F0F2F5;
   left: 0;
   padding: 1.25rem 1.875rem;
   border: 1px solid #E4E4EB;
-  background-color:transparent;
+  background-color:inherit;
+}
+.modal-input {
+  background-color: #fff;
 }
 .input-group-label {
   position: absolute;
@@ -704,6 +712,9 @@ font-size: 1rem;
 color: #828A99;
 transition: top 0.2s, left 0.2s, font-size 0.2s;
 padding: 0 10px;
+}
+.modal-input-label {
+  background-color: #fff;
 }
 .input:focus ~ .input-group-label, 
 .input:not(:placeholder-shown) .input:not(:focus) ~ .input-group-label {
@@ -870,7 +881,78 @@ gap: 74px;
 .made-in-mobile {
   display: none;
 }
-
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(40, 45, 51,0.5);
+  z-index: 10;
+  display: flex;
+}
+.modal.is-open {
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
+}
+.modal.is-open .modal-dialog {
+transform: translateY(0);
+opacity: 1;
+}
+.modal-dialog {
+  background-color: #fff;
+  margin: auto;
+  max-width: 28.75rem;
+  padding: 2.5rem 3.125rem;
+  position: relative;
+  transform: translateY(-10%);
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.3s;
+}
+.modal-close {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-title {
+font-family: 'Bebas Neue Book';
+font-style: normal;
+font-weight: 400;
+font-size: 3rem;
+line-height: 120%;
+color: #292D33;
+margin-top: 0;
+margin-bottom: 20px;
+}
+.modal-text {
+  font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 160%;
+color: #828A99;
+margin-bottom: 30px;
+}
+.modal-input-group {
+  background-color: #fff;
+}
+.modal-form-footer {
+  margin-top: 30px;
+}
+.modal-form-button {
+  margin-bottom: 24px;
+  width: 100%;
+  display: block;
+}
 
 @media(max-width:1700px){
   html{

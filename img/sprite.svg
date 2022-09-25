@@ -143,6 +143,11 @@
 </clipPath>
 </defs>
 </symbol>
+<symbol  viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" id="closemodal">
+<rect x="0.5" y="0.5" width="49" height="49" stroke="#EBEBF0"/>
+<path d="M16.8673 16.1599L16.1602 16.867L24.292 24.9988L16.1603 33.1305L16.8674 33.8376L24.9991 25.7059L33.1307 33.8376L33.8378 33.1305L25.7062 24.9988L33.838 16.867L33.1309 16.1599L24.9991 24.2917L16.8673 16.1599Z" fill="#828A99"/>
+</symbol>
+
 
 
 
