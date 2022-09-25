@@ -125,8 +125,8 @@ const modalDialog = document.querySelector(".modal-dialog");
 document.addEventListener("click", (event) => {
   if (
     event.target.dataset.toggle == "modal" ||
-    event.target.parentNote.dataset.toggle == "modal" ||
-    !event.composedPath().includes(modalDialog) && modal.classList.contains("is-open")
+    event.target.parentNode.dataset.toggle == "modal" ||
+    (!event.composedPath().includes(modalDialog) && modal.classList.contains("is-open"))
   ) {
     event.preventDefault();
     modal.classList.toggle("is-open");
