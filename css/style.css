@@ -960,8 +960,63 @@ margin-bottom: 30px;
   margin-bottom: 24px;
   width: 100%;
   display: block;
+  align-items: center;
+}
+.contents {
+  min-height: 19.625rem;
+  padding-top: 9rem;
+  padding-left: .625rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+.footer-content {
+
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.contents-title {
+  font-family: 'Bebas Neue Book';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 120%;
+  color: #292D33;
+  margin: 1.3125rem 0 1.8rem 0;
+  letter-spacing: .0456rem;
+  word-spacing: -0.05rem;
 }
 
+.main-content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #828A99;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+.contents-seporator {
+  background: #828A99;;
+  width: 0.9rem;
+height: .125rem;
+}
+.second-content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #292D33;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+.img-bg {
+  min-height: 13.75rem;
+  min-width: 16.125rem;
+  margin-right: 6.5rem;
+
+}
 @media(max-width:1700px){
   html{
     font-size: 15px;
@@ -1350,7 +1405,30 @@ margin-bottom: 24px;
 .footer-wrapper{
   display: block;
 }
- }
+.contents-elements{
+  min-height: 24.0625rem;
+}
+.contents {
+  padding-top: 10rem;
+}
+.contents-footer{
+  min-width: 10px;
+}
+.contents-title {
+font-size: 48px;
+line-height: 120%;
+margin: 1.3125rem 0 2rem 0;
+}
+.main-content, .second-content{
+font-weight: 400;
+font-size: 12px;
+line-height: 160%;
+   }
+.img-bg {
+  display: none;
+}
+
+}
  @media (max-width:576px){
   .container {
     max-width: 96%;
