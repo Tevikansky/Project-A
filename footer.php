@@ -1,163 +1,8 @@
-<!DOCTYPE html>
-<html lang="ru">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/swiper-bundle.min.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-  <title>О компании - Aliance Production</title>
-</head>
-
-<body>
-  <div class="mobile-menu-main">
-    <ul class="mobile-menu-nav">
-      <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link">О компании</a>
-      </li>
-      <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link">Контрактное производство</a>
-        <ul class="mobile-submenu">
-          <li class="mobile-submenu-item">
-            <a class="mobile-submenu-nav" href="#">Автомобильная химия</a>
-          </li>
-          <li class="mobile-submenu-item">
-            <a class="mobile-submenu-nav" href="#">Бытовая химия</a>
-          </li>
-          <li class="mobile-submenu-item">
-            <a class="mobile-submenu-nav" href="#">Дезинфицирующие средства</a>
-          </li>
-          <li class="mobile-submenu-item">
-            <a class="mobile-submenu-nav" href="#">Пищевые аэрозоли</a>
-          </li>
-          <li class="mobile-submenu-item">
-            <a class="mobile-submenu-nav" href="#">Пищевые аэрозоли</a>
-          </li>
-          <li class="mobile-submenu-item">
-            <a class="mobile-submenu-nav" href="#">Краски аэрозольные</a>
-          </li>
-        </ul>
-      </li>
-      <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link">Собственные торговые марки</a>
-        <ul class="mobile-submenu">
-          <li class="mobile-submenu-item">
-            <a class="mobile-submenu-nav" href="#">Автохимия AG-Tech</a>
-          </li>
-          <li class="mobile-submenu-item">
-            <a class="mobile-submenu-nav" href="#">Автохимия AP</a>
-          </li>
-        </ul>
-      </li>
-      <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link">Новости</a>
-      </li>
-      <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link">Контакты</a>
-      </li>
-    </ul>
-    <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
-    <div class="mobile-info">
-      <svg class="button-phone" width="17" height="17">
-        <use href="img/sprite.svg#location"></use>
-      </svg>
-      <address class="mobile-info-text">г. Мосвка, Холодильный пер. 4к1с8</address>
-    </div>
-    <div class="mobile-info">
-      <svg class="button-phone" width="17" height="17">
-        <use href="img/sprite.svg#mail"></use>
-      </svg>
-      <a href="mailto:a.dragunov@tdaliance.ru" class="mobile-info-email">a.dragunov@tdaliance.ru</a>
-    </div>
-    <div class="soc-web">
-      <a href="#" class="mobile-info-sw">
-        <svg class="button-vk" width="24" height="24">
-          <use href="img/sprite.svg#vk"></use>
-        </svg>
-      </a>
-      <a href="#" class="mobile-info-sw">
-        <svg class="button-inst" width="20" height="20">
-          <use href="img/sprite.svg#inst"></use>
-        </svg>
-      </a>
-    </div>
-  </div>
-  <nav class="navbar navbar-light">
-    <a href="#" class="mobile-menu">
-      <div class="mobile-menu-line"></div>
-      <div class="mobile-menu-line"></div>
-      <div class="mobile-menu-line"></div>
-    </a>
-    <a href="./" class="logo">
-      <svg class="logo-svg logo-light">
-        <use href="img/sprite.svg#logo"></use>
-      </svg>
-      <svg class="logo-svg logo-dark">
-        <use href="img/sprite.svg#logo-dark"></use>
-      </svg>
-    </a>
-    <ul class="header-nav">
-      <li class="header-nav-item">
-        <a href="/about.html" class="header-link">О компании</a>
-      </li>
-      <li class="header-nav-item">
-        <a href="#" class="header-link">Контрактное производство</a>
-      </li>
-      <li class="header-nav-item">
-        <a href="#" class="header-link">Собственные торговые марки</a>
-      </li>
-      <li class="header-nav-item">
-        <a href="#" class="header-link">Новости</a>
-      </li>
-      <li class="header-nav-item">
-        <a href="#" class="header-link">Контакты</a>
-      </li>
-    </ul>
-    <div class="header-phone">
-      <svg class="logo-phone" width="17" height="17">
-        <use href="img/sprite.svg#phone"></use>
-      </svg>
-      <a href="tel:+74996861014" class="header-phone-link">+7 (499) 686-10-14</a>
-    </div>
-    <button class="header-button button" data-toggle="modal">
-      <svg class="button-phone" width="17" height="17">
-        <use href="img/sprite.svg#phone"></use>
-      </svg>
-      <span class="button-text">Получить консультацию</span>
-    </button>
-  </nav>
-  <div class="contents-elements bg-grey">
-    <div class="contents container">
-      <div class="contents-footer">
-        <div class="seporator"></div>
-        <h1 class="contents-title">
-          О компании
-        </h1>
-        <div class="footer-content">
-          <a href="#" class="main-content">Главная</a>
-          <div class="contents-seporator"></div>
-          <a href="#" class="second-content">О компании</a>
-        </div>
-      </div>
-      <div class="img-bg"></div>
-    </div>
-
-
-
-
-
-  </div>
-
-  <section class="cta">
+<section class="cta">
     <div class="bg-grey section-cta">
       <img src="img/steel.png" alt="cta" class="cta-img">
       <div class="cta-form-wrapper container">
-        <form action="#" class="cta-form">
+        <form action="handler.php" method="POST" class="cta-form">
           <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
           <p class="cta-form-text">
             Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и
@@ -165,12 +10,12 @@
           </p>
           <div class="input-group-wrapper">
             <div class="input-group">
-              <input id="user-name" type="text" class="input" placeholder="">
+              <input id="user-name" type="text" class="input"   name="username" placeholder="">
               <label class="input-group-label" for="user-name">Имя</label>
             </div>
 
             <div class="input-group">
-              <input id="user-phone" type="tel" class="input" placeholder="">
+              <input id="user-phone" type="tel" class="input" name="userphone" placeholder="">
               <label class="input-group-label" for="user-phone">Номер телефона</label>
             </div>
           </div>
@@ -286,7 +131,7 @@
     <div class="container">
       <div class="footer-wrapper">
         <div class="footer-legal">
-          <p class="footer-copyright">&copy; 2022 «Aliance Production». Все права защищены.</p>
+          <p class="footer-copyright">&copy; <?php echo date('Y')?> «Aliance Production». Все права защищены.</p>
           <a href="#" class="footer-policy">Политики конфиденциальности</a>
         </div>
         <div class="footer-author">
@@ -340,8 +185,6 @@
       </form>
     </div>
   </div>
-
-
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
