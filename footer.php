@@ -20,7 +20,7 @@
             </div>
           </div>
           <div class="cta-form-footer">
-            <button type="submit" class="button cta-form-button">Отправить заявку</button>
+            <button type="submit" class="button cta-form-button" data-toggle="modal-success">Отправить заявку</button>
             <div class="notify">
               <svg class="notify-svg" width="14" height="14">
                 <use href="img/sprite.svg#shield"></use>
@@ -170,7 +170,7 @@
           </div>
         </div>
         <div class="modal-form-footer">
-          <button type="submit" class="button modal-form-button">Отправить заявку</button>
+          <button type="submit" class="button modal-form-button" data-toggle="modal-success">Отправить заявку</button>
           <div class="notify">
             <svg class="notify-svg" width="14" height="14">
               <use href="img/sprite.svg#shield"></use>
@@ -186,7 +186,22 @@
     </div>
   </div>
 
+  <div class="modal-success">
+    <div class="modal-success-dialog">
+      <img src="img/thanks_illu.png" alt="thanks" class="thanks">
+      <h2 class="modal-success-title">Спасибо за заявку!</h2>
+      <a href="#" class="modal-success-close" data-toggle="modal-success">
+        <svg class="close-icon" width="50" height="50">
+          <use href="img/sprite.svg#closemodal"></use>
+        </svg>
 
+      </a>
+      <p class="modal-success-text">
+      Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
+      </p>
+          <button type="submit" class="button modal-success-button" data-toggle="modal-success">Вернуться на главную</button>
+    </div>
+  </div>
 
   <script src="./js/swiper-bundle.min.js"></script>
   <script src="./js/just-validate.production.min.js"></script>

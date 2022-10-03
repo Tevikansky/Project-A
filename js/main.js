@@ -143,6 +143,27 @@ document.addEventListener('keyup', (event) => {
 });
 
 
+const modalSuccess = document.querySelector(".modal-success");
+const modalSuccessDialog = document.querySelector(".modal-success-dialog");
+
+
+document.addEventListener("click", (event) => {
+  if (
+    event.target.dataset.toggle == "modal-success" ||
+    event.target.parentNode.dataset.toggle == "modal-success" ||
+    (!event.composedPath().includes(modalSuccessDialog) && modalSuccess.classList.contains("is-open"))
+  ) {
+    event.preventDefault();
+    modalSuccess.classList.toggle("is-open");
+  }
+});
+document.addEventListener('keyup', (event) => {
+  if (event.key == "Escape" && modalSuccess.classList.contains("is-open")) {
+    modalSuccess.classList.toggle("is-open");
+  }
+});
+
+
 const forms = document.querySelectorAll("form");
 forms.forEach((form) => {
   const validation = new JustValidate(form, {
