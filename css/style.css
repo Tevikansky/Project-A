@@ -696,7 +696,6 @@ background-color: #F0F2F5;
 
 }
 .input {
-  
   width: 100%;
   height: 100%;
   position: absolute;
@@ -709,31 +708,47 @@ background-color: #F0F2F5;
 .modal-input {
   background-color: #fff;
 }
+
+.modal-input-label {
+  background-color: #fff;
+}
 .input-group-label {
   position: absolute;
   cursor: text;
   top: 1.5rem;
   left: 1.9rem;
   font-style: normal;
-font-weight: 400;
-font-size: 1rem;
-color: #828A99;
-transition: top 0.2s, left 0.2s, font-size 0.2s;
-padding: 0 10px;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #828A99;
+  transition: top 0.2s, left 0.2s, font-size 0.2s;
+  padding: 0 10px;
 }
-.modal-input-label {
-  background-color: #fff;
+.input:focus {
+  border: 1px solid #5C8EE6;
+  outline: 0;
 }
 .input:focus ~ .input-group-label, 
-.input:not(:placeholder-shown) .input:not(:focus) ~ .input-group-label {
+.input:not(:placeholder-shown) ~ .input-group-label {
 top: -0.3rem;
 left: 1.25rem;
 font-size: .625rem;
 background-color: inherit;
+padding: 0 10px;
 }
-.input:focus {
-  border: 1px solid #5C8EE6;
-  outline: none;
+.input.is-invalid {
+  border: 1px solid red;
+}
+.just-validate-error-label {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background-color: inherit;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  transform: translateY(-50%);
+  font-style: 0.8rem;
+  display: inline-block;
 }
 .cta-form-footer {
   gap: 1.875rem;
@@ -1671,7 +1686,7 @@ padding-left: 1rem;
   padding: 2.5rem 1.875rem;
  }
  .input:focus ~ .input-group-label, 
-.input:not(:placeholder-shown) .input:not(:focus) ~ .input-group-label {
+.input:not(:placeholder-shown) ~ .input-group-label {
 top: -0.8rem;
 left: 1.25rem;
 font-size: .825rem;
