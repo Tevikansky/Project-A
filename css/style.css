@@ -219,7 +219,7 @@ margin-bottom: 3.125rem;
   margin-top: 4.8rem;
   list-style: none;
   position: relative;
-  color: #fff;
+  color: inherit;
 
 }
 .primary-buttons-wrapper{
@@ -263,6 +263,8 @@ margin-bottom: 3.125rem;
   border: .0625rem solid rgba(235, 235, 240, 0.2);
   width: 18rem;
   height: auto;
+  color:inherit;
+
 }
 .fourth{
   padding-top: .1875rem;
@@ -287,6 +289,7 @@ margin-bottom: 0;
   font-size: 1rem;
   line-height: 160%;
   margin-top: 1.25rem;
+  color: inherit;
 }
 .work-container{
   padding-left: .625rem;
@@ -1018,11 +1021,12 @@ margin-bottom: 30px;
     align-items: center;
     padding: 19px 0;
   }
-
+  .img-bg-none {
+    display: none;
+  }
   .img-bg {
-    min-height: 13.75rem;
-    min-width: 16.125rem;
-    margin-right: 6.5rem;
+    display: block;
+    margin-right: -0.5rem;
     color: #292D33;
   
   }
@@ -1039,7 +1043,8 @@ margin-bottom: 30px;
 
 
 .contents {
-  min-height: 19.625rem;
+  min-height: 22.625rem;
+  max-height: 22.625rem;
   padding-top: 9rem;
   padding-left: .625rem;
   display: flex;
@@ -1088,7 +1093,13 @@ height: .125rem;
   text-decoration: none;
   text-decoration-line: none;
 }
-
+.swiper-features{
+  position: relative;
+  color:#fff;
+}
+.black{
+  color: black;
+}
 @media(max-width:1700px){
   html{
     font-size: 15px;

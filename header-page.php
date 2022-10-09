@@ -144,7 +144,9 @@
           <a href="#" class="second-content"><?= $page_title ?></a>
         </div>
       </div>
-      <div class="img-bg"></div>
+      <div class="img-bg-none <?= $img_style;?>">
+        <img src="./img/avto-him.png" alt="">
+      </div>
     </div>
 
 
