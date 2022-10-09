@@ -308,45 +308,7 @@
       </div>
     </div>
   </section>
-  <section class="section mark">
-    <div class="container">
-      <div class="mark-container">
-        <div class="seporator second"></div>
-        <h2 class="section-title second">собственные торговые марки</h2>
-        <div class="mark-wrapper">
-          <a href="#" class="mark-card">
-            <!--<div class="mark-box-img">-->
-            <svg class="card-marks-img">
-              <use href="img/sprite.svg#AG-tech"></use>
-            </svg>
-            <!-- </div> -->
-            <!--
-              <div class="mark-card-content"> -->
-            <h3 class="mark-card-title">Автохимия AG-Tech</h3>
-            <p class="mark-card-text">Для современного мира разбавленное<br>изрядной долей эмпатии, рациональное
-              мышление
-              создаёт предпосылки для поставленных обществом задач.</p>
-            <!-- </div> -->
-          </a>
-          <a href="#" class="mark-card">
-            <!--<div class="mark-box-img">-->
-            <svg class="card-marks-img">
-              <use href="img/sprite.svg#AP"></use>
-            </svg>
-            <!-- </div> -->
-            <!--
-              <div class="mark-card-content ap"> -->
-            <h3 class="mark-card-title ">Автохимия AP</h3>
-            <p class="mark-card-text">Для современного мира разбавленное изрядной долей эмпатии,рациональное
-              мышление
-              создаёт предпосылки для поставленных обществом задач.
-            </p>
-            <!-- </div> -->
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+ <?php $block_title = 'собственные торговые марки';include_once ('./template-parts/trademarks-block.php')?>
   <section class="section founder">
     <img src="/img/founder.png" alt="founder" class="founder-photo">
     <div class="container">

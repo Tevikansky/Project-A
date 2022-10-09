@@ -1019,7 +1019,20 @@ margin-bottom: 30px;
     padding: 19px 0;
   }
 
-
+  .img-bg {
+    min-height: 13.75rem;
+    min-width: 16.125rem;
+    margin-right: 6.5rem;
+    color: #292D33;
+  
+  }
+  .page-header-bg-image {
+    background-image: url("../img/blog/Blog2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+  }
 
 
 
@@ -1031,6 +1044,7 @@ margin-bottom: 30px;
   padding-left: .625rem;
   display: flex;
   justify-content: space-between;
+  
 
 }
 .footer-content {
@@ -1045,7 +1059,7 @@ margin-bottom: 30px;
   font-weight: 400;
   font-size: 80px;
   line-height: 120%;
-  color: #292D33;
+  color: inherit;
   margin: 1.3125rem 0 1.8rem 0;
   letter-spacing: .0456rem;
   word-spacing: -0.05rem;
@@ -1056,12 +1070,12 @@ margin-bottom: 30px;
   font-weight: 400;
   font-size: 14px;
   line-height: 160%;
-  color: #828A99;
+  color: inherit;
   text-decoration: none;
   text-decoration-line: none;
 }
 .contents-seporator {
-  background: #828A99;;
+  background-color: #828A99;
   width: 0.9rem;
 height: .125rem;
 }
@@ -1070,16 +1084,11 @@ height: .125rem;
   font-weight: 400;
   font-size: 14px;
   line-height: 160%;
-  color: #292D33;
+  color: inherit;
   text-decoration: none;
   text-decoration-line: none;
 }
-.img-bg {
-  min-height: 13.75rem;
-  min-width: 16.125rem;
-  margin-right: 6.5rem;
 
-}
 @media(max-width:1700px){
   html{
     font-size: 15px;
