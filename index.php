@@ -124,11 +124,11 @@
       </svg>
       <a href="tel:+74996861014" class="header-phone-link">+7 (499) 686-10-14</a>
     </div>
-    <button class="header-button button" data-toggle="modal">
+    <button class="header-button button" data-toggle="modal" data-target="#feedback-modal">
       <svg class="button-phone" width="17" height="17">
         <use href="img/sprite.svg#phone"></use>
       </svg>
-      <span class="button-text">Получить консультацию</span>
+      <span class="button-text" >Получить консультацию</span>
     </button>
   </nav>
   <header class="header header-image">
@@ -143,7 +143,7 @@
           Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта:
           высококачественный прототип будущего проекта напрямую зависит от анализа существующих паттернов поведения.
         </p>
-        <button class="button more"> Подробнее о компании
+        <button class="button more" data-toggle="modal" data-target="#feedback-modal"> Подробнее о компании
         </button>
       </div>
     </div>

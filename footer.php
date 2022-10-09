@@ -144,10 +144,10 @@
       </div>
     </div>
   </footer>
-  <div class="modal">
-    <div class="modal-dialog">
+  <div class="modal" id="feedback-modal">
+    <div class="modal-dialog ">
       <h2 class="modal-title">Есть вопросы?</h2>
-      <a href="#" class="modal-close" data-toggle="modal">
+      <a href="#" class="modal-close" data-toggle="modal" data-target="#feedback-modal">
         <svg class="close-icon" width="50" height="50">
           <use href="img/sprite.svg#closemodal"></use>
         </svg>
@@ -186,20 +186,20 @@
     </div>
   </div>
 
-  <div class="modal-success">
-    <div class="modal-success-dialog">
+  <div class="modal" id="alert-modal">
+    <div class="modal-dialog succes">
       <img src="img/thanks_illu.png" alt="thanks" class="thanks">
-      <h2 class="modal-success-title">Спасибо за заявку!</h2>
-      <a href="#" class="modal-success-close" data-toggle="modal-success">
+      <h2 class="modal-title modal-success-title">Спасибо за заявку!</h2>
+      <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
         <svg class="close-icon" width="50" height="50">
           <use href="img/sprite.svg#closemodal"></use>
         </svg>
 
       </a>
-      <p class="modal-success-text">
+      <p class="modal-text modal-success-text">
       Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
       </p>
-          <button type="submit" class="button modal-success-button" data-toggle="modal-success">Вернуться на главную</button>
+          <button type="submit" class="button modal-button  modal-success-button" data-toggle="modal">Вернуться на главную</button>
     </div>
   </div>
 
