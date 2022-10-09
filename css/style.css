@@ -5,6 +5,7 @@
   font-family: 'Bebas Neue Book';
   src: url('../fonts/BebasNeueBook.woff') format('woff');
   font-weight: normal;
+  font-display: swap;
   font-style: normal;
   }
 html{
@@ -264,7 +265,9 @@ margin-bottom: 3.125rem;
   width: 18rem;
   height: auto;
   color:inherit;
-
+}
+.darker {
+  border: .0625rem solid #EBEBF0;
 }
 .fourth{
   padding-top: .1875rem;

@@ -1,5 +1,9 @@
 <section class="section founder">
-    <img src="/img/founder.png" alt="founder" class="founder-photo">
+<picture class="founder-photo">
+  <source type="image/webp" srcset="/img/founder.webp">
+  <source type="image/png" srcset="/img/founder.png">
+  <img src="/img/founder.png" alt="founder">
+</picture>
     <div class="container">
       <div class="founder-wrapper">
         <div class="founder-content">
@@ -18,7 +22,7 @@
             степени предоставлены сами себе. Не следует, однако, забывать, что выбранный нами инновационный путь в
             значительной степени обусловливает важность дальнейших направлений развития.
           </p>
-
+          
           <?php
         if (!empty($block_title)) {
           echo '<a href="#" class="button-link mission-off">Подробнее о компании</a>';

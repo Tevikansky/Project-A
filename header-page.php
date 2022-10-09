@@ -145,7 +145,12 @@
         </div>
       </div>
       <div class="img-bg-none <?= $img_style;?>">
-        <img src="./img/avto-him.png" alt="">
+      <picture>
+  <source type="image/webp" srcset="/img/avto-him.webp">
+  <source type="image/png" srcset="/img/avto-him.png">
+  <img src="/img/avto-him.png" alt="avto-him">
+</picture>
+        
       </div>
     </div>
 

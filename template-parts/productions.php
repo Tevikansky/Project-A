@@ -16,7 +16,12 @@
               <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить<br> значение форм
                 воздействия.</p>
             </div>
-            <img src="img/card1.png" alt="Автомобильная химия" class="card-img">
+            <picture class="card-img">
+  <source type="image/webp" srcset="/img/card1.webp">
+  <source type="image/png" srcset="/img/card1.png">
+  <img src="/img/card1.png" alt="card1">
+</picture> 
+            
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -26,14 +31,22 @@
                 <br>разнесены на независимые элементы.
               </p>
             </div>
-            <img src="img/card2.png" alt="Бытовая химия" class="card-img">
+            <picture class="card-img">
+  <source type="image/webp" srcset="/img/card2.webp">
+  <source type="image/png" srcset="/img/card2.png">
+  <img src="/img/card2.png" alt="card2">
+</picture> 
           </a>
           <a href="#" class="card">
             <div class="card-content">
               <h3 class="card-title">Дезинфицирующие средства</h3>
               <p class="card-text">Лишь интерактивные прототипы<br> призваны к ответу.</p>
             </div>
-            <img src="img/card3.png" alt="Дезинфицирующие средства" class="card-img">
+            <picture class="card-img">
+  <source type="image/webp" srcset="/img/card3.webp">
+  <source type="image/png" srcset="/img/card3.png">
+  <img src="/img/card3.png" alt="card3">
+</picture>3
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -41,14 +54,22 @@
               <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить<br>значение форм
                 воздействия.</p>
             </div>
-            <img src="img/card4.png" alt="Пищевые аэрозоли" class="card-img">
+            <picture class="card-img">
+  <source type="image/webp" srcset="/img/card4.webp">
+  <source type="image/png" srcset="/img/card4.png">
+  <img src="/img/card4.png" alt="card4">
+</picture> 
           </a>
           <a href="#" class="card">
             <div class="card-content">
               <h3 class="card-title">Косметическая продукция</h3>
               <p class="card-text">Лишь интерактивные прототипы<br>призваны к ответу.</p>
             </div>
-            <img src="img/card5.png" alt="Косметическая продукция" class="card-img">
+            <picture class="card-img">
+  <source type="image/webp" srcset="/img/card5.webp">
+  <source type="image/png" srcset="/img/card5.png">
+  <img src="/img/card5.png" alt="card5">
+</picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -58,7 +79,11 @@
                 <br>разнесены на независимые элементы.
               </p>
             </div>
-            <img src="img/card6.png" alt="Краски аэрозольные" class="card-img">
+            <picture class="card-img">
+  <source type="image/webp" srcset="/img/card6.webp">
+  <source type="image/png" srcset="/img/card6.png">
+  <img src="/img/card6.png" alt="card6">
+</picture> 
           </a>
         </div>
       </div>

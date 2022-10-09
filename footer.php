@@ -1,6 +1,10 @@
 <section class="cta">
     <div class="bg-grey section-cta">
-      <img src="img/steel.png" alt="cta" class="cta-img">
+    <picture class="cta-img">
+  <source type="image/webp" srcset="/img/steel.webp">
+  <source type="image/png" srcset="/img/steel.png">
+  <img src="/img/steel.png" alt="steel">
+</picture> 
       <div class="cta-form-wrapper container">
         <form action="handler.php" method="POST" class="cta-form">
           <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
@@ -188,7 +192,12 @@
 
   <div class="modal" id="alert-modal">
     <div class="modal-dialog succes">
-      <img src="img/thanks_illu.png" alt="thanks" class="thanks">
+
+    <picture class="thanks">
+  <source type="image/webp" srcset="/img/thanks_illu.webp">
+  <source type="image/png" srcset="/img/thanks_illu.png">
+  <img src="/img/thanks_illu.png" alt="thanks_illu">
+</picture> 
       <h2 class="modal-title modal-success-title">Спасибо за заявку!</h2>
       <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
         <svg class="close-icon" width="50" height="50">
