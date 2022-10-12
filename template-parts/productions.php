@@ -19,7 +19,7 @@
             <picture class="card-img">
   <source type="image/webp" srcset="/img/card1.webp">
   <source type="image/png" srcset="/img/card1.png">
-  <img src="/img/card1.png" alt="card1">
+  <img src="/img/card1.png" alt="card1" class="card-img">
 </picture> 
             
           </a>
@@ -34,7 +34,7 @@
             <picture class="card-img">
   <source type="image/webp" srcset="/img/card2.webp">
   <source type="image/png" srcset="/img/card2.png">
-  <img src="/img/card2.png" alt="card2">
+  <img src="/img/card2.png" alt="card2" class="card-img">
 </picture> 
           </a>
           <a href="#" class="card">
@@ -45,7 +45,7 @@
             <picture class="card-img">
   <source type="image/webp" srcset="/img/card3.webp">
   <source type="image/png" srcset="/img/card3.png">
-  <img src="/img/card3.png" alt="card3">
+  <img src="/img/card3.png" alt="card3" class="card-img">
 </picture>3
           </a>
           <a href="#" class="card">
@@ -57,7 +57,7 @@
             <picture class="card-img">
   <source type="image/webp" srcset="/img/card4.webp">
   <source type="image/png" srcset="/img/card4.png">
-  <img src="/img/card4.png" alt="card4">
+  <img src="/img/card4.png" alt="card4" class="card-img">
 </picture> 
           </a>
           <a href="#" class="card">
@@ -68,7 +68,7 @@
             <picture class="card-img">
   <source type="image/webp" srcset="/img/card5.webp">
   <source type="image/png" srcset="/img/card5.png">
-  <img src="/img/card5.png" alt="card5">
+  <img src="/img/card5.png" alt="card5" class="card-img">
 </picture>
           </a>
           <a href="#" class="card">
@@ -82,7 +82,7 @@
             <picture class="card-img">
   <source type="image/webp" srcset="/img/card6.webp">
   <source type="image/png" srcset="/img/card6.png">
-  <img src="/img/card6.png" alt="card6">
+  <img src="/img/card6.png" alt="card6" class="card-img">
 </picture> 
           </a>
         </div>
