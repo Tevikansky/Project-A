@@ -1,3 +1,6 @@
+@import url("normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap");
+@import url("swiper-bundle.min.css");
 * {
   box-sizing: border-box;
 }
@@ -54,6 +57,9 @@ header{
   max-width: 90rem;
   margin: auto;
   position: relative;
+}
+.no-webp .header-image{
+  background-image: url('../img/header-bg.jpg');
 }
 .header-image{
   background-image: url('../img/header-bg.webp');
