@@ -46,7 +46,7 @@
   <source type="image/webp" srcset="/img/card3.webp">
   <source type="image/png" srcset="/img/card3.png">
   <img src="/img/card3.png" alt="card3" class="card-img">
-</picture>3
+</picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">

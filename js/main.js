@@ -4,12 +4,13 @@ const logo = document.querySelector(".logo-dark");
 const mMenuToggle = document.querySelector(".mobile-menu");
 const menu = document.querySelector(".mobile-menu-main");
 const isFront = document.body.classList.contains("front-page");
-const lightModeOn = (event) => {
-  navbar.classList.add("navbar-light");
+const lightModeOn = (block) => {
+  block.classList.add("navbar-light");
 
 };
-const lightModeOff = (event) => {
-  navbar.classList.remove("navbar-light");
+const lightModeOff = (block) => {
+  block.classList.remove("navbar-light");
+
 };
 
 const changeNavHeight = (height) => {
@@ -31,12 +32,21 @@ const closeMenu = (event) => {
   document.body.style.overflow = "";
   this.scrollY < 1 ? lightModeOff() : lightModeOn();
 };
+console.log(window.screen.width)
 
 window.addEventListener("scroll", () => {
-  this.scrollY > 1 ? changeNavHeight("4.5rem") : changeNavHeight("5.875rem");
-  if (isFront) {
-    this.scrollY > 1 ? lightModeOn() : lightModeOff();
+  // this.scrollY > 1 ? changeNavHeight("4.5rem") : changeNavHeight("5.875rem");
+  // if (window.screen.width < 992) {
+  //   this.scrollY > 1 ? changeMobileMenuPadding("18px 21px 16px 31px") : changeMobileMenuPadding("27px 21px 26px 31px");
+  // } else {
+  //   changeMobileMenuPadding("0px");
+  // }
 
+  if (isFront) {
+    this.scrollY > 1 ? lightModeOn(navbar) : lightModeOff(navbar);
+  } else {
+    const headerPageNav = document.querySelector(".header-page-navbar");
+    this.scrollY > 1 ? lightModeOn(headerPageNav) : lightModeOff(headerPageNav);
   }
 });
 

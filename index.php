@@ -88,9 +88,12 @@
   </div>
   <nav class="navbar">
     <a href="#" class="mobile-menu">
+    <div class="mobile-menu-burger">
       <div class="mobile-menu-line"></div>
       <div class="mobile-menu-line"></div>
       <div class="mobile-menu-line"></div>
+    </div>
+      
     </a>
     <a href="./" class="logo">
       <svg class="logo-svg logo-light">

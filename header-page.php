@@ -14,7 +14,7 @@
   <title> <?= $page_title ?> - Aliance Production</title>
 </head>
 
-<body>
+<body class="header-page">
   <div class="mobile-menu-main">
     <ul class="mobile-menu-nav">
       <li class="mobile-menu-nav-item">
@@ -87,16 +87,19 @@
       </a>
     </div>
   </div>
-  <nav class="navbar navbar-light">
+  <nav class="header-page-navbar">
     <a href="#" class="mobile-menu">
+    <div class="mobile-menu-burger">
       <div class="mobile-menu-line"></div>
       <div class="mobile-menu-line"></div>
       <div class="mobile-menu-line"></div>
+    </div>
     </a>
     <a href="./" class="logo">
       <svg class="logo-svg logo-light">
-        <use href="img/sprite.svg#logo"></use>
+        <use href="img/sprite.svg#logo-dark"></use>
       </svg>
+      
       <svg class="logo-svg logo-dark">
         <use href="img/sprite.svg#logo-dark"></use>
       </svg>
