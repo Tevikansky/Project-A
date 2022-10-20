@@ -91,11 +91,6 @@ header {
   border-bottom: 0.0625rem solid rgba(235, 235, 240, 0.2);
   transition: background-color 0.2s, height 0.2s;
 }
-.navbar-light {
-  background-color: #fff;
-  color: #292d33;
-  height: 4.5rem;
-}
 .header-page-navbar {
   display: flex;
   align-items: center;
@@ -109,6 +104,11 @@ header {
   transition: background-color 0.2s, height 0.2s;
   background-color: #fff;
   color: #292d33;
+}
+.navbar-light {
+  background-color: #fff;
+  color: #292d33;
+  height: 4.5rem;
 }
 .logo-dark {
   display: none;
@@ -1124,6 +1124,90 @@ header {
 }
 .black {
   color: black;
+}
+.about-container {
+  padding-left: 8px;
+}
+.about {
+  position: relative;
+  margin-top: 6.4rem;
+}
+.about-wrapper {
+  display: flex;
+  gap: 112px;
+  margin-bottom: 70px;
+}
+.about-content {
+  padding-top: 3.125rem;
+  padding-left: 0.5625rem;
+}
+.section-about {
+  padding-right: 3.75rem;
+  margin-bottom: 1.5rem;
+}
+.about-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828a99;
+  margin-bottom: 1.875rem;
+}
+.our-production {
+  max-width: 91rem;
+  margin-top: 9.4rem;
+  margin-bottom: -3.2rem;
+}
+.our-production-content {
+  padding-top: 3.125rem;
+  padding-left: 1.1rem;
+}
+.about-list {
+  padding: 0;
+  columns: 2 10px;
+}
+.about-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292d33;
+  margin-bottom: 1.25rem;
+}
+.about-list-item:nth-child(4) {
+  margin-left: -0.7rem;
+}
+.about-list-item:nth-child(5) {
+  margin-left: -0.7rem;
+}
+.about-list-item:nth-child(6) {
+  margin-left: -0.7rem;
+}
+.research {
+  margin-top: 273px;
+}
+.section-research {
+  width: 546px;
+  margin-bottom: 15px;
+}
+.research-container {
+  padding-left: 9px;
+}
+.research-wrapper {
+  columns: 2 auto;
+  gap: 40px;
+  margin-top: 27px;
+}
+.research-text {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #828a99;
+  padding-right: 65px;
+  margin: 0;
 }
 @media (max-width: 1700px) {
   html {
