@@ -23,7 +23,7 @@
         <a href="/contracts.php" class="mobile-menu-link">Контрактное производство</a>
         <ul class="mobile-submenu">
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-nav" href="#">Автомобильная химия</a>
+            <a class="mobile-submenu-nav" href="/autochem.php">Автомобильная химия</a>
           </li>
           <li class="mobile-submenu-item">
             <a class="mobile-submenu-nav" href="#">Бытовая химия</a>
@@ -43,7 +43,7 @@
         </ul>
       </li>
       <li class="mobile-menu-nav-item">
-        <a href="/trademarks.php.php" class="mobile-menu-link">Собственные торговые марки</a>
+        <a href="/trademarks.php" class="mobile-menu-link">Собственные торговые марки</a>
         <ul class="mobile-submenu">
           <li class="mobile-submenu-item">
             <a class="mobile-submenu-nav" href="#">Автохимия AG-Tech</a>

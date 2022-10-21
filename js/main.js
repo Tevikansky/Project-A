@@ -151,6 +151,11 @@ modalButtons.forEach((button) => {
     });
   });
 });
+
+
+
+
+
 document.addEventListener('keyup', (event) => {
   if (event.key == "Escape" && currentModal.classList.contains("is-open")) {
     currentModal.classList.toggle("is-open");

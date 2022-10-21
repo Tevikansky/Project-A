@@ -18,13 +18,13 @@
   <div class="mobile-menu-main">
     <ul class="mobile-menu-nav">
       <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link">О компании</a>
+        <a href="/about.php" class="mobile-menu-link">О компании</a>
       </li>
       <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link">Контрактное производство</a>
+        <a href="/contracts.php" class="mobile-menu-link">Контрактное производство</a>
         <ul class="mobile-submenu">
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-nav" href="#">Автомобильная химия</a>
+            <a class="mobile-submenu-nav" href="/autochem.php">Автомобильная химия</a>
           </li>
           <li class="mobile-submenu-item">
             <a class="mobile-submenu-nav" href="#">Бытовая химия</a>
@@ -142,7 +142,7 @@
         <?= $page_title ?>
         </h1>
         <div class="footer-content">
-          <a href="#" class="main-content">Главная</a>
+          <a href="/index.php" class="main-content">Главная</a>
           <div class="contents-seporator"></div>
           <a href="#" class="second-content"><?= $page_title ?></a>
         </div>

@@ -25,8 +25,8 @@
           
           <?php
         if (!empty($block_title)) {
-          echo '<a href="#" class="button-link mission-off">Подробнее о компании</a>';
-          echo '<a href="#" class="button-link mission-on">О нашей миссии</a>';
+          echo '<a href="../about.php" class="button-link mission-off">Подробнее о компании</a>';
+          echo '<a href="about.php" class="button-link mission-on">О нашей миссии</a>';
         }
         
         ?>

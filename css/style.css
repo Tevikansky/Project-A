@@ -1209,6 +1209,47 @@ header {
   padding-right: 65px;
   margin: 0;
 }
+.container-produtions {
+  margin-top: -3rem;
+}
+.button-more {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  color: #5c8ee6;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 160%;
+  gap: 1.25rem;
+  padding-left: 0.1875rem;
+}
+.contracts {
+  margin-top: 9rem;
+  padding-left: 1rem;
+  max-width: 91rem;
+  margin-bottom: -2.9375rem;
+}
+.section-contracts {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 160%;
+  color: #292d33;
+  margin-bottom: -0.25rem;
+}
+.contracts-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828a99;
+  margin-bottom: 1.35rem;
+}
+.container-own-marks {
+  margin-top: -5.5rem;
+}
 @media (max-width: 1700px) {
   html {
     font-size: 15px;
