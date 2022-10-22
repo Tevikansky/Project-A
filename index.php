@@ -228,5 +228,5 @@
       </div>
     </div>
   </section>
-
+  <?php include_once ('./template-parts/cta.php');?>
   <?php include_once ('footer.php');?>

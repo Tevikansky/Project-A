@@ -132,6 +132,32 @@ const swiperBlog = new Swiper('.swiper-blog', {
   }
 });
 
+const swiperProduction = new Swiper('.swiper-production', {
+  loop: true,
+  slidesPerView: 4,
+  speed: 500,
+  autoHeight: false,
+  width: 1470,
+  slidesOffsetBefore: 241,
+  navigation: {
+    nextEl: '.blog-button-next',
+    prevEl: '.blog-button-prev',
+  },
+  breakpoints: {
+    // when window width is >= 300px
+    300: {
+      slidesPerView: 1,
+    },
+    1200: {
+      slidesPerView: 2,
+    }
+  }
+});
+
+
+
+
+
 let currentModal;
 let modalDialog;
 let alertModal = document.querySelector("#alert-modal");

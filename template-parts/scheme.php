@@ -1,4 +1,4 @@
-<section class="section section-light">
+<section class="section">
     <div class="container">
       <div class="work-container">
         <div class="seporator second"></div>

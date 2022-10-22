@@ -16,6 +16,7 @@ $header_style = 'bg-grey';
               </svg>
               Читать больше</a>
 </div>
+<?php include_once ('./template-parts/cta.php');?>
   <?php include_once ('footer.php');?>
 
 

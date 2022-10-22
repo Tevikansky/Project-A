@@ -5,5 +5,6 @@ $header_style = 'bg-grey';
  <div class="container-own-marks"> 
  <?php include_once('./template-parts/trademarks-block.php');?>
  </div>
+ <?php include_once ('./template-parts/cta.php');?>
   <?php include_once ('footer.php');?>
 
