@@ -5,10 +5,14 @@
         <?php
         if (!empty($block_title)) {
           echo '<div class="seporator second"></div>';
-          echo '<h2 class="section-title second">' .$block_title . '</h2>';
+          echo '<h2 class="section-title second">' .$block_title . 
+           '</h2>';
         }
         
         ?>
+        
+      
+
         <div class="mark-wrapper">
           <a href="#" class="mark-card">
             <!--<div class="mark-box-img">-->

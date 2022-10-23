@@ -167,7 +167,7 @@
       <p class="modal-text modal-success-text">
       Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
       </p>
-          <button type="submit" class="button modal-button  modal-success-button" data-toggle="modal">Вернуться на главную</button>
+          <button type="submit" class="button modal-button  modal-success-button" data-toggle="modal" data-target="#alert-modal">Вернуться на главную</button>
     </div>
   </div>
 

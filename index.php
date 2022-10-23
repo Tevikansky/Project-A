@@ -153,7 +153,7 @@
   </header>
   <?php include_once ('./template-parts/scheme.php')?>
   <?php $block_title = 'контрактное производство';include_once ('./template-parts/productions.php')?>
- <?php $block_title = 'собственные торговые марки';include_once ('./template-parts/trademarks-block.php')?>
+ <?php $block_title = 'собственные <span class="trade">торговые </span>марки';include_once ('./template-parts/trademarks-block.php')?>
  <?php include_once ('./template-parts/founder.php')?>
  <?php include_once ('./template-parts/clients.php')?>
 
@@ -209,7 +209,7 @@
 
         <!-- If we need navigation buttons -->
         <div class="blog-slider-footer">
-          <a href="#" class="button-link">Весь блог</a>
+          <a href="./blog.php" class="button-link">Весь блог</a>
           <div class="blog-buttons 
         primary-buttons-wrapper">
             <div class="blog-button-prev primary-button-prev">

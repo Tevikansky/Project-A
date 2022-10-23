@@ -31,13 +31,13 @@
         </ul>
 
         <!-- If we need navigation buttons -->
-        <div class="slider-buttons">
-          <div class="slider-button-prev">
+        <div class="slider-buttons <?= $swiper_style;?>">
+          <div class="slider-button-prev <?= $swiper_style;?> <?= $border_style;?>">
             <svg width="36" height="24">
               <use href="img/sprite.svg#prefbt"></use>
             </svg>
           </div>
-          <div class="slider-button-next">
+          <div class="slider-button-next <?= $swiper_style;?> <?= $border_style;?>" >
             <svg width="36" height="24">
               <use href="img/sprite.svg#nextbt"></use>
             </svg>
