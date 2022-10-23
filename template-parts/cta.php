@@ -14,12 +14,12 @@
           </p>
           <div class="input-group-wrapper">
             <div class="input-group">
-              <input id="user-name" type="text" class="input"   name="username" placeholder=" " maxlenght="100" >
+              <input id="user-name" type="text" class="input"   name="username" placeholder=" "  >
               <label class="input-group-label" for="user-name">Имя</label>
             </div>
 
             <div class="input-group">
-              <input id="user-phone" type="tel" class="input phone-mask" name="userphone" placeholder=" " maxlenght="30" >
+              <input id="user-phone" type="tel" class="input phone-mask" name="userphone" placeholder=" "  >
               <label class="input-group-label" for="user-phone">Номер телефона</label>
             </div>
           </div>
