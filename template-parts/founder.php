@@ -6,7 +6,7 @@
 </picture>
     <div class="container">
       <div class="founder-wrapper">
-        <div class="founder-content">
+        <div class="founder-content <?= $height_container?>">
           <div class="seporator second"></div>
           <h2 class="section-title section-founder">Отношение к делу и к клиентам</h2>
           <p class="founder-text">
@@ -22,7 +22,6 @@
             степени предоставлены сами себе. Не следует, однако, забывать, что выбранный нами инновационный путь в
             значительной степени обусловливает важность дальнейших направлений развития.
           </p>
-          
           <?php
         if (!empty($block_title)) {
           echo '<a href="../about.php" class="button-link mission-off">Подробнее о компании</a>';

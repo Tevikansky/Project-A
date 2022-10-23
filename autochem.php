@@ -1,24 +1,25 @@
 <?php
 $page_title = 'Автомобильная химия';
+$page_title1 = 'Контрактное производство';
 $header_style = 'bg-grey';
 $swiper_style = 'black';
 $img_style = 'img-bg';
 $border_style = 'darker';
- include_once ('header-page.php');?>
+ include_once ('header-page2.php');?>
  <div class="container about-container">
- <section class="section about">
+ <section class="section autochem">
     <div class="about-wrapper">
-<!-- <picture class="about-photo">
-  <source type="image/webp" srcset="/img/production.webp">
-  <source type="image/png" srcset="/img/production.png"> -->
-  <img src="/img/autochem.png" alt="about-company" class="about-photo">
-<!-- </picture> -->
+<picture class="about-photo auto-photo">
+  <source type="image/webp" srcset="/img/autochem.webp">
+  <source type="image/png" srcset="/img/autochem.png">
+  <img src="/img/autochem.png" alt="about-company" class="about-photo auto-photo">
+</picture>
     
       
         <div class="about-content">
           <div class="seporator second"></div>
-          <h2 class="section-title section-about">Контрактное производство автомобильной химии</h2>
-          <p class="about-text">
+          <h2 class="section-title section-about section-auto">Контрактное производство автомобильной химии</h2>
+          <p class="about-text auto-text">
           Прежде всего, начало повседневной работы по формированию позиции однозначно фиксирует необходимость приоритизации разума над эмоциями. Кстати, представители современных социальных резервов неоднозначны и будут описаны максимально подробно.
 </br>
 </br>
@@ -39,38 +40,38 @@ $border_style = 'darker';
       <div class="autochem-wrapper">
         <div class="autochem-content">
           <div class="seporator second"></div>
-          <h2 class="section-title section-founder">Изготовление автохимии</h2>
-          <p class="founder-text">
+          <h2 class="section-title section-founder section-auto ">Изготовление автохимии</h2>
+          <p class="founder-text auto-text "> auto-item
           Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.
           </p>
-          <ul class="about-list">
-            <li class="about-list-item">
+          <ul class="about-list auto-list">
+            <li class="autochem-list-item auto-item">
               <svg width="30" height="30" class="about-list-item-svg">
                 <use href="img/sprite.svg#car"></use>
               </svg>
               Полное описание товаров
             </li>
-            <li class="about-list-item">
+            <li class="autochem-list-item auto-item">
                 <svg width="30" height="30" class="about-list-item-svg">
                 <use href="img/sprite.svg#car"></use>
               </svg>
               Актуальные цены</li>
-            <li class="about-list-item"><svg width="30" height="30" class="about-list-item-svg">
+            <li class="autochem-list-item auto-item"><svg width="30" height="30" class="about-list-item-svg">
                 <use href="img/sprite.svg#eat"></use>
               </svg>Полное описание товаров</li>
-            <li class="about-list-item"><svg width="30" height="30" class="about-list-item-svg">
+            <li class="autochem-list-item auto-item"><svg width="30" height="30" class="about-list-item-svg">
                 <use href="img/sprite.svg#brush"></use>
               </svg>Актуальные цены</li>
-            <li class="about-list-item"><svg width="30" height="30" class="about-list-item-svg">
+            <li class="autochem-list-item auto-item"><svg width="30" height="30" class="about-list-item-svg">
                 <use href="img/sprite.svg#cosmetic"></use>
               </svg>Лаки и краски</li>
-            <li class="about-list-item"><svg width="30" height="30" class="about-list-item-svg">
+            <li class="autochem-list-item auto-item"><svg width="30" height="30" class="about-list-item-svg">
                 <use href="img/sprite.svg#brush"></use>
               </svg>Химические производства</li>
-              <li class="about-list-item"><svg width="30" height="30" class="about-list-item-svg">
+              <li class="autochem-list-item auto-item"><svg width="30" height="30" class="about-list-item-svg">
                 <use href="img/sprite.svg#cosmetic"></use>
               </svg>Лаки и краски</li>
-            <li class="about-list-item"><svg width="30" height="30" class="about-list-item-svg">
+            <li class="autochem-list-item auto-item"><svg width="30" height="30" class="about-list-item-svg">
                 <use href="img/sprite.svg#brush"></use>
               </svg>Химические производства</li>
           </ul>
@@ -85,8 +86,8 @@ $border_style = 'darker';
 
 
 <picture class="autochem-photo">
-  <!-- <source type="image/webp" srcset="/img/founder.webp">
-  <source type="image/png" srcset="/img/founder.png"> -->
+  <source type="image/webp" srcset="/img/Prodchem.webp">
+  <source type="image/png" srcset="/img/Prodchem.png">
   <img src="/img/Prodchem.png" alt="founder" class="autochem-photo">
 </picture>
   </section>

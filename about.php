@@ -3,15 +3,16 @@ $page_title = 'О компании';
 $header_style = 'bg-grey';
 $swiper_style = 'black';
 $border_style = 'darker';
+$height_container = 'height';
  include_once ('header-page.php');?>
  <div class="container about-container">
  <section class="section about">
     <div class="about-wrapper">
-<!-- <picture class="about-photo">
+<picture class="about-photo">
   <source type="image/webp" srcset="/img/production.webp">
-  <source type="image/png" srcset="/img/production.png"> -->
+  <source type="image/png" srcset="/img/production.png">
   <img src="/img/production.png" alt="about-company" class="about-photo">
-<!-- </picture> -->
+</picture>
     
       
         <div class="about-content">
@@ -34,16 +35,16 @@ $border_style = 'darker';
 <div class="about-wrapper">
 <div class="our-production-content">
           <div class="seporator second"></div>
-          <h2 class="section-title section-about-production">Наше производство</h2>
-<!-- <picture class="about-photo-mobile">
+          <h2 class="section-title section-about section-about-production">Наше производство</h2>
+<picture class="about-photo-mobile">
   <source type="image/webp" srcset="/img/Our-production.webp">
-  <source type="image/png" srcset="/img/Our-production.png"> -->
+  <source type="image/png" srcset="/img/Our-production.png">
   <img src="/img/Our-production.png" alt="about-company" class="about-photo-mobile">
-<!-- </picture> --> 
+</picture> 
 
 
 
-          <p class="about-text-production">
+          <p class="about-text about-text-production">
           Предварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает широкому кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но граница обучения кадров создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса кластеризации усилий.
     </br>
     </br>
@@ -75,11 +76,11 @@ $border_style = 'darker';
               </svg>Краски аэрозольные</li>
           </ul>
  </div>
-<!-- <picture class="about-photo-second">
+<picture class="about-photo-second">
   <source type="image/webp" srcset="/img/Our-production.webp">
-  <source type="image/png" srcset="/img/Our-production.png"> -->
+  <source type="image/png" srcset="/img/Our-production.png">
   <img src="/img/Our-production.png" alt="about-company" class="about-photo-second">
-<!-- </picture> -->   
+</picture>   
 </div>
 </section>
 </div>

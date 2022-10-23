@@ -147,9 +147,13 @@ const swiperProduction = new Swiper('.swiper-production', {
     // when window width is >= 300px
     300: {
       slidesPerView: 1,
+      slidesOffsetBefore: 16,
+      width: 375,
+      spaceBetween: -20,
     },
     1200: {
       slidesPerView: 2,
+      slidesOffsetBefore: 241,
     }
   }
 });
