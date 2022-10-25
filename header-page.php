@@ -89,7 +89,7 @@
       </a>
     </div>
   </div>
-  <nav class="header-page-navbar">
+  <nav class=" navbar header-page-navbar">
     <a href="#" class="mobile-menu">
     <div class="mobile-menu-burger">
       <div class="mobile-menu-line"></div>

@@ -54,7 +54,7 @@ header {
   height: 1.5625rem;
 }
 .container {
-  max-width: 90rem;
+  max-width: 91rem;
   margin: auto;
   position: relative;
 }
@@ -204,7 +204,7 @@ header {
 }
 .header-button {
   height: 100%;
-  padding: 1.5625rem 2.0625rem 1.5625rem 3.0625rem;
+  padding: 1.5625rem 3.0625rem 1.5625rem 3.0625rem;
 }
 .seporator {
   background: #5c8ee6;
@@ -238,7 +238,6 @@ header {
   display: flex;
   min-height: 10.0625rem;
   padding: 0;
-  padding-left: 0.625rem;
   margin-top: 4.8rem;
   list-style: none;
   position: relative;
@@ -288,9 +287,8 @@ header {
 }
 
 .header-feauters-item {
-  padding: 2.0625rem 3.75rem 0.75rem 3rem;
+  padding: 2.0625rem 3.75rem 0.8rem 3rem;
   border: 0.0625rem solid rgba(235, 235, 240, 0.2);
-  width: 18rem;
   height: auto;
   color: inherit;
 }
@@ -1327,6 +1325,8 @@ header {
   width: 91rem;
   margin: auto;
   margin-top: 7.5rem;
+  position: relative;
+  z-index: 1000;
 }
 .kind-autochem-container {
   margin-top: 290px;
@@ -1559,7 +1559,7 @@ header {
   }
   .cta-form-wrapper {
     display: block;
-    margin: 0px 14px;
+    margin: auto;
   }
   .footer-logo {
     margin-left: 0.4375rem;
@@ -2013,13 +2013,12 @@ header {
     width: 8rem;
   }
   .header-feauters-item:first-child {
-    padding: 23px 70px 5px 36px;
+    padding: 25px 63px 5px 30px;
   }
   .header-feauters-item {
     padding: 23px 70px 5px 28px;
     width: 290px;
     height: auto;
-    min-width: 258px;
   }
   .header-feauters-text {
     font-weight: 400;
@@ -2049,11 +2048,11 @@ header {
   }
   .section {
     margin-bottom: -0.2rem;
-    margin-top: 8.3rem;
+    margin-top: 8.4rem;
   }
-  .steps {
+  /* .steps {
     gap: 6.6rem;
-  }
+  } */
   .steps-num {
     font-size: 4.3rem;
     line-height: 120%;
@@ -2238,6 +2237,7 @@ header {
     width: 100%;
     height: 5.1rem;
     margin-bottom: 2.5rem;
+    max-width: 402px;
   }
   .notify {
     margin-left: 0.1875rem;
@@ -2401,6 +2401,9 @@ header {
     font-size: 1.2rem;
     gap: 1.6rem;
     padding-left: 0.1875rem;
+  }
+  .founder {
+    margin-top: 8.7rem;
   }
 }
 @media (max-width: 320px) {

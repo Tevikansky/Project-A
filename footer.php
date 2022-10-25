@@ -5,7 +5,7 @@
         <svg class="logo-svg footer-logo">
           <use href="img/sprite.svg#logo-dark"></use>
         </svg>
-        <a href="tell:+74996861014" class="footer-phone">
+        <a href="tel:+74996861014" class="footer-phone">
           +7 (499) 686-10-14
         </a>
         <div class="footer-info">
@@ -95,7 +95,7 @@
       <div class="footer-wrapper">
         <div class="footer-legal">
           <p class="footer-copyright">&copy; <?php echo date('Y')?> «Aliance Production». Все права защищены.</p>
-          <a href="/policy.php" class="footer-policy">Политики конфиденциальности</a>
+          <a href="/policy.php" class="footer-policy">Политика конфиденциальности</a>
         </div>
         <div class="footer-author">
           <span class="made-in">Сделано в</span>

@@ -4,12 +4,12 @@ const logo = document.querySelector(".logo-dark");
 const mMenuToggle = document.querySelector(".mobile-menu");
 const menu = document.querySelector(".mobile-menu-main");
 const isFront = document.body.classList.contains("front-page");
-const lightModeOn = (block) => {
-  block.classList.add("navbar-light");
+const lightModeOn = (event) => {
+  navbar.classList.add("navbar-light");
 
 };
-const lightModeOff = (block) => {
-  block.classList.remove("navbar-light");
+const lightModeOff = (event) => {
+  navbar.classList.remove("navbar-light");
 
 };
 
@@ -58,6 +58,7 @@ mMenuToggle.addEventListener("click", (event) => {
 const swiper = new Swiper('.swiper-features', {
   speed: 400,
   slidesPerView: 1,
+  width: 1450,
   navigation: {
     nextEl: '.slider-button-next',
     prevEl: '.slider-button-prev',
@@ -65,8 +66,10 @@ const swiper = new Swiper('.swiper-features', {
   breakpoints: {
     // when window width is >= 320px
     300: {
-      slidesOffsetAfter: 362,
-      slidesPerView: 2,
+      slidesOffsetBefore: 15,
+      slidesOffsetAfter: 50,
+      slidesPerView: 1,
+      width: 250
     },
     576: {
       slidesPerView: 2,
@@ -94,9 +97,9 @@ const swiperWork = new Swiper('.swiper-work', {
   breakpoints: {
     // when window width is >= 300px
     300: {
-      slidesPerView: 2,
-      slidesOffsetAfter: 400,
-      width: 500
+      slidesPerView: 1,
+      slidesOffsetAfter: 50,
+      width: 307
     },
     576: {
       slidesPerView: 2,
@@ -216,9 +219,15 @@ forms.forEach((form) => {
       },
     ])
     .addField('[name=userphone]', [{
-      rule: 'required',
-      errorMessage: 'Укажите телефон',
-    }, ])
+        rule: 'required',
+        errorMessage: 'Укажите телефон',
+      },
+      {
+        rule: 'minLength',
+        value: 18,
+        errorMessage: "Некорректный номер",
+      },
+    ])
     .onSuccess((event) => {
       const thisForm = event.target;
       const formData = new FormData(thisForm);
@@ -229,7 +238,9 @@ forms.forEach((form) => {
         }).then((response) => {
           if (response.ok) {
             thisForm.reset();
-            currentModal.classList.remove("is-open");
+            if (currentModal) {
+              currentModal.classList.remove("is-open");
+            }
             alertModal.classList.add("is-open");
             currentModal = alertModal;
             modalDialog = currentModal.querySelector(".modal-dialog");
@@ -314,5 +325,12 @@ document.addEventListener("input", (e) => {
     }
     /* итог: номер в формате +7 (999) 123-45-67 */
     input.value = result;
+  } else if (e.target["name"]) {
+    e.target.value = e.target.value.replace(/[0-9]/g, "");
+    e.target.value = e.target.value.replace(/[.,%]/g, '')
   }
+
+
+  console.log()
+
 });
