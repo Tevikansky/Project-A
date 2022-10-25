@@ -46,7 +46,7 @@
         </ul>
       </li>
       <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link">Собственные торговые марки</a>
+        <a href="/trademarks.php" class="mobile-menu-link">Собственные торговые марки</a>
         <ul class="mobile-submenu">
           <li class="mobile-submenu-item">
             <a class="mobile-submenu-nav" href="#">Автохимия AG-Tech</a>

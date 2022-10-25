@@ -34,9 +34,9 @@ $border_style = 'darker';
 
   <?php include_once ('./template-parts/facts.php');?>
 
-  <section class="section founder">
+  <section class="section founder ">
 
-  <div class="container autochem-container">
+  <div class="container autochem-container prod-chem">
       <div class="autochem-wrapper">
         <div class="autochem-content">
           <div class="seporator second"></div>

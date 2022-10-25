@@ -1952,7 +1952,7 @@ header {
   }
 
   .about-photo-mobile {
-    width: 98%;
+    width: 99%;
     margin-bottom: 1.75rem;
   }
   .kind-autochem-container {
@@ -2227,6 +2227,9 @@ header {
   }
   .cta-form {
     margin-bottom: 3.4rem;
+    padding-left: 7px;
+    margin-top: -7px;
+    padding-right: 7px;
   }
   .input-group-label {
     font-size: 1.2rem;
@@ -2317,6 +2320,7 @@ header {
   }
   .our-production-content {
     padding-left: 0.7rem;
+    padding-top: 37px;
   }
   .section-about-production {
     display: block;
@@ -2332,6 +2336,7 @@ header {
     line-height: 159%;
     padding-right: 0.5rem;
     margin-bottom: 1.89rem;
+    margin-top: 21px;
   }
   .about-list {
     columns: 1 10px;
@@ -2379,7 +2384,8 @@ header {
   .policy {
     margin-top: 53px;
     margin-bottom: 108px;
-    padding-right: 3px;
+    padding-right: 4px;
+    padding-left: 8px;
   }
   .text-policy {
     font-size: 14px;
@@ -2420,6 +2426,10 @@ header {
   }
   .founder {
     margin-top: 8.7rem;
+  }
+  .prod-chem{
+    padding-left: 10px;
+    margin-top: -5px;
   }
 }
 @media (max-width: 320px) {
