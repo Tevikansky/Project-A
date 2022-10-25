@@ -521,7 +521,6 @@ header {
 .founder-content {
   min-width: 45rem;
   flex-basis: 50%;
-  padding-left: 0.5625rem;
 }
 .founder-wrapper {
   display: flex;
@@ -529,7 +528,7 @@ header {
   padding-top: 3.125rem;
 }
 .section-founder {
-  padding-right: 3.75rem;
+  padding-right: 5.75rem;
   margin-bottom: 1.5rem;
 }
 .founder-text {
@@ -538,6 +537,7 @@ header {
   line-height: 160%;
   color: #828a99;
   margin-bottom: 1.875rem;
+  padding-right: 1rem;
 }
 .clients {
   margin-top: 15.4375rem;
@@ -683,7 +683,7 @@ header {
 .cta-form-wrapper {
   display: flex;
   justify-content: flex-end;
-  margin-left: 4.5rem;
+  margin-left: 3.5rem;
 }
 .cta-form {
   max-width: 52.5rem;
@@ -1129,6 +1129,9 @@ header {
   position: relative;
   color: #fff;
 }
+.swiper-blog {
+  padding-right: 16px;
+}
 .black {
   color: black;
   fill: #292d33;
@@ -1136,9 +1139,9 @@ header {
 .about-container {
   padding-left: 8px;
 }
-.autochem-container {
+/* .autochem-container {
   padding-left: 8px;
-}
+} */
 .about {
   position: relative;
   margin-top: 6.4rem;
@@ -1168,6 +1171,7 @@ header {
   line-height: 160%;
   color: #828a99;
   margin-bottom: 1.875rem;
+  padding-right: 7px;
 }
 .our-production {
   max-width: 91rem;
@@ -1175,8 +1179,8 @@ header {
   margin-bottom: -3.2rem;
 }
 .our-production-content {
-  padding-top: 3.125rem;
-  padding-left: 1.1rem;
+  padding-top: 2.8rem;
+  padding-left: 0.6rem;
 }
 .about-list {
   padding: 0;
@@ -1265,7 +1269,8 @@ header {
 }
 .contracts {
   margin-top: 9rem;
-  padding-left: 1rem;
+  padding-left: 0.5rem;
+    padding-right: 0.5rem;
   max-width: 91rem;
   margin-bottom: -2.9375rem;
 }
@@ -1298,16 +1303,13 @@ header {
 .autochem-photo {
   position: absolute;
   right: 0px;
-  top: -25px;
+  top: -27px;
   min-height: 41.25rem;
   object-fit: cover;
-  height: 660px;
-  width: 822px;
 }
 .policy {
   margin-top: 103px;
   max-width: 90rem;
-  padding-left: 9px;
   margin-bottom: 150px;
 }
 .text-policy {
@@ -1329,8 +1331,8 @@ header {
   z-index: 1000;
 }
 .kind-autochem-container {
-  margin-top: 290px;
-  max-width: 89rem;
+  margin-top: 285px;
+  max-width: 90rem;
   margin-bottom: -8.5rem;
 }
 .kind-autochem-text {
@@ -1363,6 +1365,7 @@ header {
 }
 .wrapper-blog-cards {
   columns: 2 auto;
+  column-gap: 28px;
 }
 .blog-new {
   height: 400px;
@@ -1370,15 +1373,14 @@ header {
   margin-bottom: 30px;
 }
 .container-blog-cards {
-  padding-left: 31px;
-  max-width: 93rem;
+  max-width: 90rem;
   margin-top: 101px;
 }
 .numbers {
   display: flex;
   justify-content: flex-end;
   gap: 36px;
-  padding-right: 35px;
+  padding-right: 20px;
   margin-top: 21px;
   margin-bottom: -45px;
 }
@@ -1427,6 +1429,16 @@ header {
 }
 .contents-extra {
   padding-bottom: 50px;
+}
+.about-photo-second {
+  padding-right: 8px;
+  margin-top: -4px;
+}
+.autochemestry-container {
+  padding-bottom: 0;
+}
+.auto-text {
+  padding-right: 0;
 }
 @media (max-width: 1700px) {
   html {
@@ -2185,6 +2197,9 @@ header {
   .clients-list-item:nth-child(10) {
     margin-left: 0;
   }
+  .swiper-blog {
+    padding-right: 0;
+  }
   .clients-logo-item {
     flex-basis: 50%;
   }
@@ -2382,6 +2397,7 @@ header {
   .contracts {
     margin-top: 4rem;
     padding-left: 0.6rem;
+    padding-right: 0;
     margin-bottom: 0.0625rem;
   }
   .section-contracts {

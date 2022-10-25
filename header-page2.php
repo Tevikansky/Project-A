@@ -136,7 +136,7 @@
     </button>
   </nav>
   <div class="contents-elements <?= $header_style;?> ">
-    <div class="contents container">
+    <div class="contents container autochemestry-container">
       <div class="contents-footer">
         <div class="seporator"></div>
         <h1 class="contents-title">
