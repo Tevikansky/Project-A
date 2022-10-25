@@ -38,7 +38,7 @@
     <div class="container">
       <div class="footer-bottom">
         <div class="footer-menu-wrapper">
-          <h2 class="footer-menu-title">Контрактное производство</h2>
+          <a class="footer-menu-title" href="/contracts.php">Контрактное производство</a>
           <ul class="footer-menu-list footer-menu-column-2">
             <li class="footer-menu-item">
               <a href="/autochem.php" class="footer-menu-link">Автомобильная химия</a>
@@ -62,7 +62,7 @@
 
         </div>
         <div class="footer-menu-wrapper ownmarks">
-          <h2 class="footer-menu-title">Собственные марки</h2>
+          <a class="footer-menu-title" href="/trademarks.php">Собственные марки</a>
           <ul class="footer-menu-list">
             <li class="footer-menu-item">
               <a href="#" class="footer-menu-link">Автохимия AG-Tech</a>

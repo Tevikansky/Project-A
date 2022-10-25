@@ -145,11 +145,11 @@
         <div class="footer-content">
           <a href="/index.php" class="main-content">Главная</a>
           <div class="contents-seporator"></div>
-          <a href="#" class="second-content"><?= $page_title1 ?></a>
+          <a href="contracts.php" class="second-content"><?= $page_title1 ?></a>
           <div class="contents-seporator"></div>
           <a href="#" class="second-content dekstop"><?= $page_title ?></a>
         </div>
-          <a href="#" class="second-content mobile"><?= $page_title ?></a>
+          <a href="contracts.php" class="second-content mobile"><?= $page_title ?></a>
       </div>
       <div class="img-bg-none <?= $img_style;?>">
       <picture>

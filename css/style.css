@@ -29,6 +29,7 @@ header {
 .header-button .button-phone {
   display: none;
 }
+
 .logo-svg {
   width: 9rem;
   height: 9em;
@@ -202,6 +203,9 @@ header {
   cursor: pointer;
   max-width: 350px;
 }
+.button:hover {
+  background: #3A71D1;
+}
 .header-button {
   height: 100%;
   padding: 1.5625rem 3.0625rem 1.5625rem 3.0625rem;
@@ -266,6 +270,12 @@ header {
   cursor: pointer;
   padding-left: 12px;
   fill: white;
+}
+.primary-button-prev:hover {
+  background: #3A71D1;
+}
+.primary-button-next:hover {
+  background: #3A71D1;
 }
 .primary-button-next {
   padding-left: 0;
@@ -874,6 +884,12 @@ header {
   font-size: 1rem;
   line-height: 160%;
   color: #292d33;
+  display: block;
+  text-decoration: none;
+  display: inline-block;
+}
+.footer-menu-title:hover {
+  text-decoration: underline;
 }
 .footer-menu-list {
   margin: 0;
@@ -883,6 +899,12 @@ header {
 .footer-menu-column-2 {
   columns: 20rem auto;
   min-width: 45.4rem;
+}
+.footer-menu-item{
+display: inline-block;
+}
+.footer-menu-item:hover {
+  text-decoration: underline;
 }
 .footer-menu-link {
   text-decoration: none;
@@ -1108,6 +1130,9 @@ header {
   text-decoration: none;
   text-decoration-line: none;
 }
+.main-content:hover {
+  text-decoration: underline;
+}
 .contents-seporator {
   background-color: #828a99;
   width: 0.9rem;
@@ -1121,6 +1146,9 @@ header {
   color: #828a99;
   text-decoration: none;
   text-decoration-line: none;
+}
+.second-content:hover {
+  text-decoration: underline;
 }
 .second-content:last-child {
   color: inherit;
@@ -1817,6 +1845,52 @@ header {
     font-size: 1.17rem;
     line-height: 150%;
   }
+  .header-link:hover::after {
+    transform: none;
+  }
+  .button:hover {
+    background: #5c8ee6;
+  }
+  .primary-button-prev:hover {
+    background: #5c8ee6;
+  }
+  .primary-button-next:hover {
+    background: #5c8ee6;
+  }
+  .button-link:hover::before {
+    width: 40px;
+  }
+  .card:hover .card-title {
+    color: #292d33
+  }
+  .card:hover {
+    border-color: #ebebf0;
+  }
+  .mark-card:hover .card-marks-img {
+    fill: #828a99;
+  }
+  .mark-card:hover {
+    border-color:#ebebf0;
+  }
+  .mark-card:hover .card-marks-img {
+    fill:#828a99;
+  }
+  .footer-menu-title:hover {
+    text-decoration: none;
+  }
+  .footer-menu-item:hover {
+    text-decoration: none;
+  }
+  .clients-logo-item:hover {
+    filter: none;
+  }
+  .main-content:hover {
+    text-decoration: none;
+  }
+  .second-content:hover {
+    text-decoration: none;
+  }
+
 }
 @media (max-width: 768px) {
   .container {
